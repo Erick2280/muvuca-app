@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A944434C441A8F7A5224C96 /* Pods_Muvuca_MuvucaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA2FA5A7B37E721B64872C6 /* Pods_Muvuca_MuvucaUITests.framework */; };
+		46D8522183D9182BC261B3FD /* Pods_Muvuca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5410276D8934CCFF0B4FD8 /* Pods_Muvuca.framework */; };
+		87C6D91E6BC905E1515E5272 /* Pods_MuvucaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928CE3FC5F9DC9307DF7F84E /* Pods_MuvucaTests.framework */; };
+		A711001125D1814F00FC7F81 /* MuvucaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711001025D1814F00FC7F81 /* MuvucaApp.swift */; };
+		A711001325D1814F00FC7F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711001225D1814F00FC7F81 /* ContentView.swift */; };
+		A711001525D1815100FC7F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A711001425D1815100FC7F81 /* Assets.xcassets */; };
+		A711001825D1815100FC7F81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A711001725D1815100FC7F81 /* Preview Assets.xcassets */; };
+		A711002325D1815200FC7F81 /* MuvucaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711002225D1815200FC7F81 /* MuvucaTests.swift */; };
+		A711002E25D1815200FC7F81 /* MuvucaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711002D25D1815200FC7F81 /* MuvucaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A711001F25D1815200FC7F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A711000525D1814F00FC7F81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A711000C25D1814F00FC7F81;
+			remoteInfo = Muvuca;
+		};
+		A711002A25D1815200FC7F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A711000525D1814F00FC7F81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A711000C25D1814F00FC7F81;
+			remoteInfo = Muvuca;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2446EF23230151C5D9E1893E /* Pods-MuvucaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvucaTests.debug.xcconfig"; path = "Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D8E023129EA157CE561EB6F /* Pods-Muvuca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca.release.xcconfig"; path = "Target Support Files/Pods-Muvuca/Pods-Muvuca.release.xcconfig"; sourceTree = "<group>"; };
+		6BB4BCAB92B40A8FB370F2A4 /* Pods-Muvuca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca.debug.xcconfig"; path = "Target Support Files/Pods-Muvuca/Pods-Muvuca.debug.xcconfig"; sourceTree = "<group>"; };
+		7E5410276D8934CCFF0B4FD8 /* Pods_Muvuca.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvuca.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA73191860A5848387F413E /* Pods-MuvucaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvucaTests.release.xcconfig"; path = "Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests.release.xcconfig"; sourceTree = "<group>"; };
+		86CC1D57FCFEF53F8ED44594 /* Pods-Muvuca-MuvucaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca-MuvucaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		928CE3FC5F9DC9307DF7F84E /* Pods_MuvucaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuvucaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A711000D25D1814F00FC7F81 /* Muvuca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muvuca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A711001025D1814F00FC7F81 /* MuvucaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuvucaApp.swift; sourceTree = "<group>"; };
+		A711001225D1814F00FC7F81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A711001425D1815100FC7F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A711001725D1815100FC7F81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A711001925D1815100FC7F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A711001E25D1815200FC7F81 /* MuvucaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuvucaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A711002225D1815200FC7F81 /* MuvucaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuvucaTests.swift; sourceTree = "<group>"; };
+		A711002425D1815200FC7F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A711002925D1815200FC7F81 /* MuvucaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuvucaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A711002D25D1815200FC7F81 /* MuvucaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuvucaUITests.swift; sourceTree = "<group>"; };
+		A711002F25D1815200FC7F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9276E8C981AF0502FD9639 /* Pods-Muvuca-MuvucaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca-MuvucaUITests.release.xcconfig"; path = "Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EAA2FA5A7B37E721B64872C6 /* Pods_Muvuca_MuvucaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvuca_MuvucaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A711000A25D1814F00FC7F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D8522183D9182BC261B3FD /* Pods_Muvuca.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A711001B25D1815200FC7F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C6D91E6BC905E1515E5272 /* Pods_MuvucaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A711002625D1815200FC7F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A944434C441A8F7A5224C96 /* Pods_Muvuca_MuvucaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		198457C13224E57F979804DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BB4BCAB92B40A8FB370F2A4 /* Pods-Muvuca.debug.xcconfig */,
+				2D8E023129EA157CE561EB6F /* Pods-Muvuca.release.xcconfig */,
+				86CC1D57FCFEF53F8ED44594 /* Pods-Muvuca-MuvucaUITests.debug.xcconfig */,
+				DF9276E8C981AF0502FD9639 /* Pods-Muvuca-MuvucaUITests.release.xcconfig */,
+				2446EF23230151C5D9E1893E /* Pods-MuvucaTests.debug.xcconfig */,
+				7EA73191860A5848387F413E /* Pods-MuvucaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		376D8835C613EC33500D0630 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E5410276D8934CCFF0B4FD8 /* Pods_Muvuca.framework */,
+				EAA2FA5A7B37E721B64872C6 /* Pods_Muvuca_MuvucaUITests.framework */,
+				928CE3FC5F9DC9307DF7F84E /* Pods_MuvucaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A711000425D1814F00FC7F81 = {
+			isa = PBXGroup;
+			children = (
+				A711000F25D1814F00FC7F81 /* Muvuca */,
+				A711002125D1815200FC7F81 /* MuvucaTests */,
+				A711002C25D1815200FC7F81 /* MuvucaUITests */,
+				A711000E25D1814F00FC7F81 /* Products */,
+				198457C13224E57F979804DE /* Pods */,
+				376D8835C613EC33500D0630 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A711000E25D1814F00FC7F81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A711000D25D1814F00FC7F81 /* Muvuca.app */,
+				A711001E25D1815200FC7F81 /* MuvucaTests.xctest */,
+				A711002925D1815200FC7F81 /* MuvucaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A711000F25D1814F00FC7F81 /* Muvuca */ = {
+			isa = PBXGroup;
+			children = (
+				A711001025D1814F00FC7F81 /* MuvucaApp.swift */,
+				A711001225D1814F00FC7F81 /* ContentView.swift */,
+				A711001425D1815100FC7F81 /* Assets.xcassets */,
+				A711001925D1815100FC7F81 /* Info.plist */,
+				A711001625D1815100FC7F81 /* Preview Content */,
+			);
+			path = Muvuca;
+			sourceTree = "<group>";
+		};
+		A711001625D1815100FC7F81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A711001725D1815100FC7F81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A711002125D1815200FC7F81 /* MuvucaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A711002225D1815200FC7F81 /* MuvucaTests.swift */,
+				A711002425D1815200FC7F81 /* Info.plist */,
+			);
+			path = MuvucaTests;
+			sourceTree = "<group>";
+		};
+		A711002C25D1815200FC7F81 /* MuvucaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A711002D25D1815200FC7F81 /* MuvucaUITests.swift */,
+				A711002F25D1815200FC7F81 /* Info.plist */,
+			);
+			path = MuvucaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A711000C25D1814F00FC7F81 /* Muvuca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A711003225D1815200FC7F81 /* Build configuration list for PBXNativeTarget "Muvuca" */;
+			buildPhases = (
+				1516D06A54A970B5643A12DA /* [CP] Check Pods Manifest.lock */,
+				A711000925D1814F00FC7F81 /* Sources */,
+				A711000A25D1814F00FC7F81 /* Frameworks */,
+				A711000B25D1814F00FC7F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Muvuca;
+			productName = Muvuca;
+			productReference = A711000D25D1814F00FC7F81 /* Muvuca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A711001D25D1815200FC7F81 /* MuvucaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A711003525D1815200FC7F81 /* Build configuration list for PBXNativeTarget "MuvucaTests" */;
+			buildPhases = (
+				91EE2CD70344C72FA35D517E /* [CP] Check Pods Manifest.lock */,
+				A711001A25D1815200FC7F81 /* Sources */,
+				A711001B25D1815200FC7F81 /* Frameworks */,
+				A711001C25D1815200FC7F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A711002025D1815200FC7F81 /* PBXTargetDependency */,
+			);
+			name = MuvucaTests;
+			productName = MuvucaTests;
+			productReference = A711001E25D1815200FC7F81 /* MuvucaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A711002825D1815200FC7F81 /* MuvucaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A711003825D1815200FC7F81 /* Build configuration list for PBXNativeTarget "MuvucaUITests" */;
+			buildPhases = (
+				450F8B3ED19C447C217CBA9E /* [CP] Check Pods Manifest.lock */,
+				A711002525D1815200FC7F81 /* Sources */,
+				A711002625D1815200FC7F81 /* Frameworks */,
+				A711002725D1815200FC7F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A711002B25D1815200FC7F81 /* PBXTargetDependency */,
+			);
+			name = MuvucaUITests;
+			productName = MuvucaUITests;
+			productReference = A711002925D1815200FC7F81 /* MuvucaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A711000525D1814F00FC7F81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A711000C25D1814F00FC7F81 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A711001D25D1815200FC7F81 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A711000C25D1814F00FC7F81;
+					};
+					A711002825D1815200FC7F81 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A711000C25D1814F00FC7F81;
+					};
+				};
+			};
+			buildConfigurationList = A711000825D1814F00FC7F81 /* Build configuration list for PBXProject "Muvuca" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A711000425D1814F00FC7F81;
+			productRefGroup = A711000E25D1814F00FC7F81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A711000C25D1814F00FC7F81 /* Muvuca */,
+				A711001D25D1815200FC7F81 /* MuvucaTests */,
+				A711002825D1815200FC7F81 /* MuvucaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A711000B25D1814F00FC7F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A711001825D1815100FC7F81 /* Preview Assets.xcassets in Resources */,
+				A711001525D1815100FC7F81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A711001C25D1815200FC7F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A711002725D1815200FC7F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1516D06A54A970B5643A12DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Muvuca-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		450F8B3ED19C447C217CBA9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Muvuca-MuvucaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91EE2CD70344C72FA35D517E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuvucaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A711000925D1814F00FC7F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A711001325D1814F00FC7F81 /* ContentView.swift in Sources */,
+				A711001125D1814F00FC7F81 /* MuvucaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A711001A25D1815200FC7F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A711002325D1815200FC7F81 /* MuvucaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A711002525D1815200FC7F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A711002E25D1815200FC7F81 /* MuvucaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A711002025D1815200FC7F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A711000C25D1814F00FC7F81 /* Muvuca */;
+			targetProxy = A711001F25D1815200FC7F81 /* PBXContainerItemProxy */;
+		};
+		A711002B25D1815200FC7F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A711000C25D1814F00FC7F81 /* Muvuca */;
+			targetProxy = A711002A25D1815200FC7F81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A711003025D1815200FC7F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A711003125D1815200FC7F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A711003325D1815200FC7F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB4BCAB92B40A8FB370F2A4 /* Pods-Muvuca.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Muvuca/Preview Content\"";
+				DEVELOPMENT_TEAM = QS23PKCUZD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Muvuca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A711003425D1815200FC7F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8E023129EA157CE561EB6F /* Pods-Muvuca.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Muvuca/Preview Content\"";
+				DEVELOPMENT_TEAM = QS23PKCUZD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Muvuca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A711003625D1815200FC7F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2446EF23230151C5D9E1893E /* Pods-MuvucaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS23PKCUZD;
+				INFOPLIST_FILE = MuvucaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.MuvucaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muvuca.app/Muvuca";
+			};
+			name = Debug;
+		};
+		A711003725D1815200FC7F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA73191860A5848387F413E /* Pods-MuvucaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS23PKCUZD;
+				INFOPLIST_FILE = MuvucaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.MuvucaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muvuca.app/Muvuca";
+			};
+			name = Release;
+		};
+		A711003925D1815200FC7F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CC1D57FCFEF53F8ED44594 /* Pods-Muvuca-MuvucaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS23PKCUZD;
+				INFOPLIST_FILE = MuvucaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.MuvucaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Muvuca;
+			};
+			name = Debug;
+		};
+		A711003A25D1815200FC7F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9276E8C981AF0502FD9639 /* Pods-Muvuca-MuvucaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS23PKCUZD;
+				INFOPLIST_FILE = MuvucaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.MuvucaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Muvuca;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A711000825D1814F00FC7F81 /* Build configuration list for PBXProject "Muvuca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A711003025D1815200FC7F81 /* Debug */,
+				A711003125D1815200FC7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A711003225D1815200FC7F81 /* Build configuration list for PBXNativeTarget "Muvuca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A711003325D1815200FC7F81 /* Debug */,
+				A711003425D1815200FC7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A711003525D1815200FC7F81 /* Build configuration list for PBXNativeTarget "MuvucaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A711003625D1815200FC7F81 /* Debug */,
+				A711003725D1815200FC7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A711003825D1815200FC7F81 /* Build configuration list for PBXNativeTarget "MuvucaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A711003925D1815200FC7F81 /* Debug */,
+				A711003A25D1815200FC7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A711000525D1814F00FC7F81 /* Project object */;
+}
