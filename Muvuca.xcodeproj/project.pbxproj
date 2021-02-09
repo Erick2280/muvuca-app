@@ -16,6 +16,8 @@
 		A711001825D1815100FC7F81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A711001725D1815100FC7F81 /* Preview Assets.xcassets */; };
 		A711002325D1815200FC7F81 /* MuvucaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711002225D1815200FC7F81 /* MuvucaTests.swift */; };
 		A711002E25D1815200FC7F81 /* MuvucaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711002D25D1815200FC7F81 /* MuvucaUITests.swift */; };
+		A73642B925D2B41600E88AE8 /* AddToSiriModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73642B825D2B41600E88AE8 /* AddToSiriModalView.swift */; };
+		A73642C125D2BA9200E88AE8 /* IntentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73642C025D2BA9200E88AE8 /* IntentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		A711002925D1815200FC7F81 /* MuvucaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuvucaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A711002D25D1815200FC7F81 /* MuvucaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuvucaUITests.swift; sourceTree = "<group>"; };
 		A711002F25D1815200FC7F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73642B825D2B41600E88AE8 /* AddToSiriModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToSiriModalView.swift; sourceTree = "<group>"; };
+		A73642C025D2BA9200E88AE8 /* IntentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentController.swift; sourceTree = "<group>"; };
 		DF9276E8C981AF0502FD9639 /* Pods-Muvuca-MuvucaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca-MuvucaUITests.release.xcconfig"; path = "Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EAA2FA5A7B37E721B64872C6 /* Pods_Muvuca_MuvucaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvuca_MuvucaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -97,7 +101,6 @@
 				2446EF23230151C5D9E1893E /* Pods-MuvucaTests.debug.xcconfig */,
 				7EA73191860A5848387F413E /* Pods-MuvucaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -141,6 +144,8 @@
 				A711001425D1815100FC7F81 /* Assets.xcassets */,
 				A711001925D1815100FC7F81 /* Info.plist */,
 				A711001625D1815100FC7F81 /* Preview Content */,
+				A73642B825D2B41600E88AE8 /* AddToSiriModalView.swift */,
+				A73642C025D2BA9200E88AE8 /* IntentController.swift */,
 			);
 			path = Muvuca;
 			sourceTree = "<group>";
@@ -373,7 +378,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A711001325D1814F00FC7F81 /* ContentView.swift in Sources */,
+				A73642B925D2B41600E88AE8 /* AddToSiriModalView.swift in Sources */,
 				A711001125D1814F00FC7F81 /* MuvucaApp.swift in Sources */,
+				A73642C125D2BA9200E88AE8 /* IntentController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

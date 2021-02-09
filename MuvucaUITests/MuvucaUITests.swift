@@ -26,9 +26,17 @@ class MuvucaUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-
+        
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func testUseWithSiriButton() {
+        let app = XCUIApplication()
+        app.launch()
+        app.buttons["UseWithSiriButton"].tap()
+        let addToSiriButton = app.buttons["AddToSiriButton"]
+        XCTAssert(addToSiriButton.exists, "O botão 'Adicionar à Siri' está funcionando.")
     }
 
     func testLaunchPerformance() throws {

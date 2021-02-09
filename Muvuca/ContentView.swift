@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showAddToSiriModal = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        Button(action: {
+            showAddToSiriModal.toggle()
+        }) {
+            Text("Que tal usar com a Siri?")
+        }
+        .sheet(isPresented: $showAddToSiriModal) {
+            AddToSiriModalView(showModal: self.$showAddToSiriModal)
+        }
+        .accessibility(identifier: "UseWithSiriButton")
+                
     }
 }
 
