@@ -4,7 +4,7 @@
 //
 //  Created by Erick Almeida on 08/02/21.
 //
-
+import Firebase
 import SwiftUI
 
 struct ContentView: View {

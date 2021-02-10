@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,15 @@
 		0CD9EBA825D2C4520055E87E /* CarnivalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EBA525D2C4520055E87E /* CarnivalBlockView.swift */; };
 		2A944434C441A8F7A5224C96 /* Pods_Muvuca_MuvucaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA2FA5A7B37E721B64872C6 /* Pods_Muvuca_MuvucaUITests.framework */; };
 		46D8522183D9182BC261B3FD /* Pods_Muvuca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5410276D8934CCFF0B4FD8 /* Pods_Muvuca.framework */; };
+		855C7DDC25D3FF57004E35CB /* FirebaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */; };
+		855C7DDD25D3FF57004E35CB /* FirebaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */; };
+		855C7DDE25D3FF57004E35CB /* FirebaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */; };
+		8563CA0125D2D19400BF9BF6 /* CanavalBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563CA0025D2D19400BF9BF6 /* CanavalBlock.swift */; };
+		8563CA0225D2D19400BF9BF6 /* CanavalBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563CA0025D2D19400BF9BF6 /* CanavalBlock.swift */; };
+		8563CA0325D2D19400BF9BF6 /* CanavalBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563CA0025D2D19400BF9BF6 /* CanavalBlock.swift */; };
+		85BBE4B225D2C43100E98128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */; };
+		85BBE4B325D2C43100E98128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */; };
+		85BBE4B425D2C43100E98128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */; };
 		87C6D91E6BC905E1515E5272 /* Pods_MuvucaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928CE3FC5F9DC9307DF7F84E /* Pods_MuvucaTests.framework */; };
 		A711001125D1814F00FC7F81 /* MuvucaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711001025D1814F00FC7F81 /* MuvucaApp.swift */; };
 		A711001325D1814F00FC7F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711001225D1814F00FC7F81 /* ContentView.swift */; };
@@ -53,6 +62,9 @@
 		6BB4BCAB92B40A8FB370F2A4 /* Pods-Muvuca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca.debug.xcconfig"; path = "Target Support Files/Pods-Muvuca/Pods-Muvuca.debug.xcconfig"; sourceTree = "<group>"; };
 		7E5410276D8934CCFF0B4FD8 /* Pods_Muvuca.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvuca.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA73191860A5848387F413E /* Pods-MuvucaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvucaTests.release.xcconfig"; path = "Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests.release.xcconfig"; sourceTree = "<group>"; };
+		855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHandler.swift; sourceTree = "<group>"; };
+		8563CA0025D2D19400BF9BF6 /* CanavalBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanavalBlock.swift; sourceTree = "<group>"; };
+		85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		86CC1D57FCFEF53F8ED44594 /* Pods-Muvuca-MuvucaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca-MuvucaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		928CE3FC5F9DC9307DF7F84E /* Pods_MuvucaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuvucaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A711000D25D1814F00FC7F81 /* Muvuca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muvuca.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,8 +161,11 @@
 		A711000F25D1814F00FC7F81 /* Muvuca */ = {
 			isa = PBXGroup;
 			children = (
+				85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */,
 				A711001025D1814F00FC7F81 /* MuvucaApp.swift */,
+				8563CA0025D2D19400BF9BF6 /* CanavalBlock.swift */,
 				A711001225D1814F00FC7F81 /* ContentView.swift */,
+				855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */,
 				A711001425D1815100FC7F81 /* Assets.xcassets */,
 				A711001925D1815100FC7F81 /* Info.plist */,
 				A711001625D1815100FC7F81 /* Preview Content */,
@@ -200,6 +215,7 @@
 				A711000925D1814F00FC7F81 /* Sources */,
 				A711000A25D1814F00FC7F81 /* Frameworks */,
 				A711000B25D1814F00FC7F81 /* Resources */,
+				54EEB9F92961685115EA4CC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +253,7 @@
 				A711002525D1815200FC7F81 /* Sources */,
 				A711002625D1815200FC7F81 /* Frameworks */,
 				A711002725D1815200FC7F81 /* Resources */,
+				66F6EF8EFA7516914843C761 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,6 +314,7 @@
 			files = (
 				A711001825D1815100FC7F81 /* Preview Assets.xcassets in Resources */,
 				A711001525D1815100FC7F81 /* Assets.xcassets in Resources */,
+				85BBE4B225D2C43100E98128 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85BBE4B325D2C43100E98128 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85BBE4B425D2C43100E98128 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +381,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		54EEB9F92961685115EA4CC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Muvuca/Pods-Muvuca-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Muvuca/Pods-Muvuca-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Muvuca/Pods-Muvuca-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F6EF8EFA7516914843C761 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		91EE2CD70344C72FA35D517E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,6 +444,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8563CA0125D2D19400BF9BF6 /* CanavalBlock.swift in Sources */,
+				855C7DDC25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
 				A711001325D1814F00FC7F81 /* ContentView.swift in Sources */,
 				A73642B925D2B41600E88AE8 /* AddToSiriModalView.swift in Sources */,
 				0CD9EB9A25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
@@ -403,6 +459,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8563CA0225D2D19400BF9BF6 /* CanavalBlock.swift in Sources */,
+				855C7DDD25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
 				0CD9EB9B25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
 				0CD9EBA725D2C4520055E87E /* CarnivalBlockView.swift in Sources */,
 				A711002325D1815200FC7F81 /* MuvucaTests.swift in Sources */,
@@ -413,6 +471,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8563CA0325D2D19400BF9BF6 /* CanavalBlock.swift in Sources */,
+				855C7DDE25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
 				0CD9EBA825D2C4520055E87E /* CarnivalBlockView.swift in Sources */,
 				0CD9EBA125D2C2C70055E87E /* HomeViewTests.swift in Sources */,
 				0CD9EB9C25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
