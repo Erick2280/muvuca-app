@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CD9EB9A25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */; };
+		0CD9EB9B25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */; };
+		0CD9EB9C25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */; };
+		0CD9EBA125D2C2C70055E87E /* HomeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EBA025D2C2C70055E87E /* HomeViewTests.swift */; };
+		0CD9EBA625D2C4520055E87E /* CarnivalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EBA525D2C4520055E87E /* CarnivalBlockView.swift */; };
+		0CD9EBA725D2C4520055E87E /* CarnivalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EBA525D2C4520055E87E /* CarnivalBlockView.swift */; };
+		0CD9EBA825D2C4520055E87E /* CarnivalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EBA525D2C4520055E87E /* CarnivalBlockView.swift */; };
 		2A944434C441A8F7A5224C96 /* Pods_Muvuca_MuvucaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA2FA5A7B37E721B64872C6 /* Pods_Muvuca_MuvucaUITests.framework */; };
 		46D8522183D9182BC261B3FD /* Pods_Muvuca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5410276D8934CCFF0B4FD8 /* Pods_Muvuca.framework */; };
 		855C7DDC25D3FF57004E35CB /* FirebaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */; };
@@ -47,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalBlockList.swift; sourceTree = "<group>"; };
+		0CD9EBA025D2C2C70055E87E /* HomeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTests.swift; sourceTree = "<group>"; };
+		0CD9EBA525D2C4520055E87E /* CarnivalBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalBlockView.swift; sourceTree = "<group>"; };
 		2446EF23230151C5D9E1893E /* Pods-MuvucaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvucaTests.debug.xcconfig"; path = "Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D8E023129EA157CE561EB6F /* Pods-Muvuca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca.release.xcconfig"; path = "Target Support Files/Pods-Muvuca/Pods-Muvuca.release.xcconfig"; sourceTree = "<group>"; };
 		6BB4BCAB92B40A8FB370F2A4 /* Pods-Muvuca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca.debug.xcconfig"; path = "Target Support Files/Pods-Muvuca/Pods-Muvuca.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +171,8 @@
 				A711001625D1815100FC7F81 /* Preview Content */,
 				A73642B825D2B41600E88AE8 /* AddToSiriModalView.swift */,
 				A73642C025D2BA9200E88AE8 /* IntentController.swift */,
+				0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */,
+				0CD9EBA525D2C4520055E87E /* CarnivalBlockView.swift */,
 			);
 			path = Muvuca;
 			sourceTree = "<group>";
@@ -187,6 +199,7 @@
 			children = (
 				A711002D25D1815200FC7F81 /* MuvucaUITests.swift */,
 				A711002F25D1815200FC7F81 /* Info.plist */,
+				0CD9EBA025D2C2C70055E87E /* HomeViewTests.swift */,
 			);
 			path = MuvucaUITests;
 			sourceTree = "<group>";
@@ -435,7 +448,9 @@
 				855C7DDC25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
 				A711001325D1814F00FC7F81 /* ContentView.swift in Sources */,
 				A73642B925D2B41600E88AE8 /* AddToSiriModalView.swift in Sources */,
+				0CD9EB9A25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
 				A711001125D1814F00FC7F81 /* MuvucaApp.swift in Sources */,
+				0CD9EBA625D2C4520055E87E /* CarnivalBlockView.swift in Sources */,
 				A73642C125D2BA9200E88AE8 /* IntentController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +461,8 @@
 			files = (
 				8563CA0225D2D19400BF9BF6 /* CanavalBlock.swift in Sources */,
 				855C7DDD25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
+				0CD9EB9B25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
+				0CD9EBA725D2C4520055E87E /* CarnivalBlockView.swift in Sources */,
 				A711002325D1815200FC7F81 /* MuvucaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +473,9 @@
 			files = (
 				8563CA0325D2D19400BF9BF6 /* CanavalBlock.swift in Sources */,
 				855C7DDE25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
+				0CD9EBA825D2C4520055E87E /* CarnivalBlockView.swift in Sources */,
+				0CD9EBA125D2C2C70055E87E /* HomeViewTests.swift in Sources */,
+				0CD9EB9C25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
 				A711002E25D1815200FC7F81 /* MuvucaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -600,7 +620,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Muvuca/Preview Content\"";
-				DEVELOPMENT_TEAM = ZHXRJ72927;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Muvuca/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -623,7 +643,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Muvuca/Preview Content\"";
-				DEVELOPMENT_TEAM = ZHXRJ72927;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Muvuca/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -645,7 +665,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				INFOPLIST_FILE = MuvucaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -668,7 +688,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				INFOPLIST_FILE = MuvucaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -690,7 +710,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				INFOPLIST_FILE = MuvucaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -711,7 +731,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				INFOPLIST_FILE = MuvucaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

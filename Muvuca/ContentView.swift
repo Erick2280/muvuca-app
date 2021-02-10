@@ -11,17 +11,19 @@ struct ContentView: View {
     @State var showAddToSiriModal = false
     
     var body: some View {
-        
-        Button(action: {
-            showAddToSiriModal.toggle()
-        }) {
-            Text("Que tal usar com a Siri?")
+        VStack {
+            CarnivalBlockList()
+            
+            Button(action: {
+                showAddToSiriModal.toggle()
+            }) {
+                Text("Que tal usar com a Siri?")
+            }
+            .sheet(isPresented: $showAddToSiriModal) {
+                AddToSiriModalView(showModal: self.$showAddToSiriModal)
+            }
+            .accessibility(identifier: "UseWithSiriButton")
         }
-        .sheet(isPresented: $showAddToSiriModal) {
-            AddToSiriModalView(showModal: self.$showAddToSiriModal)
-        }
-        .accessibility(identifier: "UseWithSiriButton")
-                
     }
 }
 
