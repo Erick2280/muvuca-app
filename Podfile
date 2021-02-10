@@ -7,6 +7,8 @@ target 'Muvuca' do
 
   # Pods for Muvuca
   pod 'SwiftLint'
+  pod 'Firebase'
+  pod 'Firebase/Database'
 
   target 'MuvucaTests' do
     inherit! :search_paths

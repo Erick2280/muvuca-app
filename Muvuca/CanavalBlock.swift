@@ -6,5 +6,24 @@
 //
 
 import SwiftUI
-import Firebase
+
+
+class CarnavalBlock: ObservableObject {
+    
+    var attributes: CarnavalBlock.Database
+    
+    init(database: CarnavalBlock.Database) {
+        self.attributes = database
+    }
+    
+    struct Database: Codable {
+        
+        var hour: String
+        var imageUrl: String
+        var location: String
+        var name: String
+        var date: String
+        
+    }
+}
 
