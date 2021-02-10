@@ -6,12 +6,13 @@
 
 import Foundation
 import Firebase
-import FirebaseDataBase
+import FirebaseDatabase
+import FirebaseStorage
 import FirebaseCore
 
 enum Collection: String, Codable {
     case carnavalBlock
-    
+
     var folder: String {
         get{
             return self.rawValue + "/"
@@ -20,42 +21,20 @@ enum Collection: String, Codable {
 }
 
 class FirebaseHandler {
-    
-    static var ref = Database.database().reference()
-    
-    static var storage = Storage.storage().reference()
-    
-    init() {
 
-    }
-    
-    
-    
-    /// Adding an object to a collection
-    /// - Parameters:
-    ///   - collection: Collections are the categories in which the objects are stored
-    ///   - value: The value of the objects
-    class func writeToCollection<Type>(_ collection: Collection, value: Type) where Type: Codable{
-        let childRef = ref.child(collection.folder).childByAutoId()
-        
-        do {
-            var dictionary = try value.asDictionary()
-            dictionary["id"] = childRef.key
-            
-            childRef.setValue(dictionary)
-        }
-        catch{
-            print(error)
-        }
-    }
+    static var ref = Database.database().reference()
+
+    static var storage = Storage.storage().reference()
+
+    init() {}
     
     class func getItemImage(_ collection: Collection, from id: String, completion: @escaping (Result<UIImage, Error>) -> Void){
         let ref = storage.child(collection.folder)
-        
+
         let imageRef = ref.child(id)
-        
+
         imageRef.getData(maxSize: 1 * 2048 * 2048){ data, error in
-            
+
             if let error = error{
                 print(error.localizedDescription)
                 completion(.failure(error))
@@ -67,24 +46,7 @@ class FirebaseHandler {
             }
         }
     }
-    
-    class func writeToCollection2<Type>(_ collection: Collection, value: Type) -> String? where Type: Codable{
-            let childRef = ref.child(collection.folder).childByAutoId()
-            
-            do {
-                var dictionary = try value.asDictionary()
-                dictionary["id"] = childRef.key
-                
-                childRef.setValue(dictionary)
-                
-                return childRef.key
-            }
-            catch{
-                print(error)
-                return nil
-            }
-        }
-    
+
     /// Reading the objects written in the previous operation
     /// - Parameters:
     ///   - collection: Collections are the categories in which the objects are stored
@@ -93,27 +55,27 @@ class FirebaseHandler {
     ///   - completion: When the reading is over, this code is executed, it can be either successful or a failure
     class func readCollection<Type>(_ collection: Collection, id: String, dataType: Type.Type, completion: @escaping (Result<Type,Error>) -> Void)
     where Type: Codable{
-        
+
         let pathReference = ref.child(collection.folder + id)
-        
+
         pathReference.observeSingleEvent(of: .value, with: {(snapshot) in
             DispatchQueue.main.async {
-                
+
                 guard var data = snapshot.valueInExportFormat() as? [String: Any] else{
                     return
                 }
-                
+
                 //Convert Dictionary Items to Array
                 var dict = data
                 for key in data.keys{
                     if let data = data[key] as? [String: Any]{
                         dict[key] = data.map{$0.value}
-                        
+
                     }
                 }
                 data = dict
                 do{
-                    
+
                     let decodedData = try Type(from: data)
                     completion(.success(decodedData))
                 }
@@ -121,11 +83,11 @@ class FirebaseHandler {
                     completion(.failure(error))
                 }
             }
-            
+
         })
     }
-    
-    
+
+
     /// Reading all the collections at the same time
     /// - Parameters:
     ///   - collection: Collections are the categories in which the objects are stored
@@ -133,17 +95,17 @@ class FirebaseHandler {
     ///   - completion: When the reading is over, this code is executed, it can be either successful or a failure
     class func readAllCollection<Type>(_ collection: Collection, dataType: Type.Type, completion: @escaping (Result<Type,Error>) -> Void)
     where Type: Codable{
-        
+
         let collectionRef = ref.child(collection.folder)
-        
+
         collectionRef.observeSingleEvent(of: .value, with: {(snapshot) in
-            
+
             DispatchQueue.main.async {
-                
+
                 guard let dict = snapshot.valueInExportFormat() as? [String: Any] else{
                     return
                 }
-                
+
                 //Convert Dictionary to Array (uma gambiarra)
                 var data = dict.map{$0.value}
                 data = data.map{ item -> Any? in
@@ -157,7 +119,7 @@ class FirebaseHandler {
                     }
                     return item
                 }
-                
+
                 do{
                     let thing = try Type(from: data)
                     completion(.success(thing))
@@ -167,15 +129,15 @@ class FirebaseHandler {
                     completion(.failure(error))
                 }
             }
-            
+
         })
     }
-    
+
 }
 extension Decodable {
     init(from data: Any) throws {
         let data = try JSONSerialization.data(withJSONObject: data, options: .prettyPrinted)
-        
+
         self = try JSONDecoder().decode(Self.self, from: data)
     }
 }
