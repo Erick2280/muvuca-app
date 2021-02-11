@@ -12,7 +12,12 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            HomeView()
+            Rectangle()
+                .ignoresSafeArea()
+                .frame(height: 20)
+                .foregroundColor(Color("Primary"))
+            
+            HomeView(carnival: CarnivalBlocks.shared)
             
             Button(action: {
                 showAddToSiriModal.toggle()

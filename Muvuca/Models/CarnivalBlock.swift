@@ -8,7 +8,7 @@
 import Foundation
 
 
-class CarnivalBlock: Codable{
+class CarnivalBlock: Codable, Identifiable{
     var date: String
     var hour: String
     var imageURL: String
