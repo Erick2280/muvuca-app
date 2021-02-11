@@ -16,12 +16,17 @@
 		0CD9EBA825D2C4520055E87E /* CarnivalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EBA525D2C4520055E87E /* CarnivalBlockView.swift */; };
 		2A944434C441A8F7A5224C96 /* Pods_Muvuca_MuvucaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA2FA5A7B37E721B64872C6 /* Pods_Muvuca_MuvucaUITests.framework */; };
 		46D8522183D9182BC261B3FD /* Pods_Muvuca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5410276D8934CCFF0B4FD8 /* Pods_Muvuca.framework */; };
+		85500B8E25D40E3800094167 /* ProfileViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85500B8D25D40E3800094167 /* ProfileViewTests.swift */; };
 		855C7DDC25D3FF57004E35CB /* FirebaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */; };
 		855C7DDD25D3FF57004E35CB /* FirebaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */; };
 		855C7DDE25D3FF57004E35CB /* FirebaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */; };
 		8563CA0125D2D19400BF9BF6 /* CanavalBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563CA0025D2D19400BF9BF6 /* CanavalBlock.swift */; };
 		8563CA0225D2D19400BF9BF6 /* CanavalBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563CA0025D2D19400BF9BF6 /* CanavalBlock.swift */; };
 		8563CA0325D2D19400BF9BF6 /* CanavalBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563CA0025D2D19400BF9BF6 /* CanavalBlock.swift */; };
+		8571260825D4553800B5DD1C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571260725D4553800B5DD1C /* MapView.swift */; };
+		857AC11625D407ED005AFD4E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857AC11525D407ED005AFD4E /* ProfileView.swift */; };
+		857AC11725D407ED005AFD4E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857AC11525D407ED005AFD4E /* ProfileView.swift */; };
+		857AC11825D407ED005AFD4E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857AC11525D407ED005AFD4E /* ProfileView.swift */; };
 		85BBE4B225D2C43100E98128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */; };
 		85BBE4B325D2C43100E98128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */; };
 		85BBE4B425D2C43100E98128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */; };
@@ -62,8 +67,11 @@
 		6BB4BCAB92B40A8FB370F2A4 /* Pods-Muvuca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca.debug.xcconfig"; path = "Target Support Files/Pods-Muvuca/Pods-Muvuca.debug.xcconfig"; sourceTree = "<group>"; };
 		7E5410276D8934CCFF0B4FD8 /* Pods_Muvuca.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvuca.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA73191860A5848387F413E /* Pods-MuvucaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvucaTests.release.xcconfig"; path = "Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests.release.xcconfig"; sourceTree = "<group>"; };
+		85500B8D25D40E3800094167 /* ProfileViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewTests.swift; sourceTree = "<group>"; };
 		855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHandler.swift; sourceTree = "<group>"; };
 		8563CA0025D2D19400BF9BF6 /* CanavalBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanavalBlock.swift; sourceTree = "<group>"; };
+		8571260725D4553800B5DD1C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		857AC11525D407ED005AFD4E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		86CC1D57FCFEF53F8ED44594 /* Pods-Muvuca-MuvucaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca-MuvucaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		928CE3FC5F9DC9307DF7F84E /* Pods_MuvucaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuvucaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +171,8 @@
 			children = (
 				85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */,
 				A711001025D1814F00FC7F81 /* MuvucaApp.swift */,
+				857AC11525D407ED005AFD4E /* ProfileView.swift */,
+				8571260725D4553800B5DD1C /* MapView.swift */,
 				8563CA0025D2D19400BF9BF6 /* CanavalBlock.swift */,
 				A711001225D1814F00FC7F81 /* ContentView.swift */,
 				855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */,
@@ -198,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				A711002D25D1815200FC7F81 /* MuvucaUITests.swift */,
+				85500B8D25D40E3800094167 /* ProfileViewTests.swift */,
 				A711002F25D1815200FC7F81 /* Info.plist */,
 				0CD9EBA025D2C2C70055E87E /* HomeViewTests.swift */,
 			);
@@ -445,11 +456,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8563CA0125D2D19400BF9BF6 /* CanavalBlock.swift in Sources */,
+				857AC11625D407ED005AFD4E /* ProfileView.swift in Sources */,
 				855C7DDC25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
 				A711001325D1814F00FC7F81 /* ContentView.swift in Sources */,
 				A73642B925D2B41600E88AE8 /* AddToSiriModalView.swift in Sources */,
 				0CD9EB9A25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
 				A711001125D1814F00FC7F81 /* MuvucaApp.swift in Sources */,
+				8571260825D4553800B5DD1C /* MapView.swift in Sources */,
 				0CD9EBA625D2C4520055E87E /* CarnivalBlockView.swift in Sources */,
 				A73642C125D2BA9200E88AE8 /* IntentController.swift in Sources */,
 			);
@@ -463,6 +476,7 @@
 				855C7DDD25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
 				0CD9EB9B25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
 				0CD9EBA725D2C4520055E87E /* CarnivalBlockView.swift in Sources */,
+				857AC11725D407ED005AFD4E /* ProfileView.swift in Sources */,
 				A711002325D1815200FC7F81 /* MuvucaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,11 +485,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85500B8E25D40E3800094167 /* ProfileViewTests.swift in Sources */,
 				8563CA0325D2D19400BF9BF6 /* CanavalBlock.swift in Sources */,
 				855C7DDE25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
 				0CD9EBA825D2C4520055E87E /* CarnivalBlockView.swift in Sources */,
 				0CD9EBA125D2C2C70055E87E /* HomeViewTests.swift in Sources */,
 				0CD9EB9C25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
+				857AC11825D407ED005AFD4E /* ProfileView.swift in Sources */,
 				A711002E25D1815200FC7F81 /* MuvucaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

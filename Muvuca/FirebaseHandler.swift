@@ -6,7 +6,8 @@
 
 import Foundation
 import Firebase
-import FirebaseDataBase
+import FirebaseDatabase
+import FirebaseStorage
 import FirebaseCore
 
 enum Collection: String, Codable {
