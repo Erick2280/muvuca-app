@@ -11,9 +11,15 @@ import SwiftUI
 struct ProfileView: View {
     
     @Binding var block: CarnivalBlock
+    @State var checkpoints: [Checkpoint] = [Checkpoint(title: "Saída do Siri Na Lata", coordinate: .init(latitude: -8.064647, longitude: -34.872838))]
+
         
     var body: some View {
     
+        ZStack{
+            Color("Primary")
+                .edgesIgnoringSafeArea(.all)
+            
         VStack{
             HStack{
                 Text("\(block.imageURL)")
@@ -34,24 +40,17 @@ struct ProfileView: View {
 
                 Text("\(block.hour)")
                     .font(.footnote)
-            }.padding(.top, 80.0)
+            }.padding(.top, 30.0)
             
-//            MapView().frame(minWidth: 200, idealWidth: 200, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: 300, idealHeight: 200, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            ZStack{
-                Rectangle()
-                    .foregroundColor(.white)
-                    .scaledToFill()
-                
-                VStack(alignment: .leading){
-                    Text("# \(block.name)")
-                        .padding(.trailing, 1.0)
-                }
+            MapViewAdvance(checkpoints: $checkpoints)
+                .edgesIgnoringSafeArea(.all)
 
             }
+        .foregroundColor(.white)
         }
+    }
         
     }
-}
 
 
 
