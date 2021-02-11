@@ -18,6 +18,19 @@
 		A711002E25D1815200FC7F81 /* MuvucaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711002D25D1815200FC7F81 /* MuvucaUITests.swift */; };
 		A73642B925D2B41600E88AE8 /* AddToSiriModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73642B825D2B41600E88AE8 /* AddToSiriModalView.swift */; };
 		A73642C125D2BA9200E88AE8 /* IntentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73642C025D2BA9200E88AE8 /* IntentController.swift */; };
+		A7ED332225D4218D00D465C2 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7ED332125D4218D00D465C2 /* Intents.framework */; };
+		A7ED332525D4218D00D465C2 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED332425D4218D00D465C2 /* IntentHandler.swift */; };
+		A7ED332D25D4218D00D465C2 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7ED332C25D4218D00D465C2 /* IntentsUI.framework */; };
+		A7ED333025D4218D00D465C2 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED332F25D4218D00D465C2 /* IntentViewController.swift */; };
+		A7ED333325D4218D00D465C2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7ED333125D4218D00D465C2 /* MainInterface.storyboard */; };
+		A7ED333725D4218D00D465C2 /* MuvucaIntentsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A7ED332B25D4218D00D465C2 /* MuvucaIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A7ED333A25D4218D00D465C2 /* MuvucaIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A7ED332025D4218D00D465C2 /* MuvucaIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A7ED334825D4226E00D465C2 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A7ED334725D4226E00D465C2 /* Intents.intentdefinition */; };
+		A7ED334925D4226E00D465C2 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A7ED334725D4226E00D465C2 /* Intents.intentdefinition */; };
+		A7ED334A25D4226E00D465C2 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A7ED334725D4226E00D465C2 /* Intents.intentdefinition */; };
+		A7ED337925D428BB00D465C2 /* ViewBlocksIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED337825D428BB00D465C2 /* ViewBlocksIntentHandler.swift */; };
+		A7ED337A25D428BB00D465C2 /* ViewBlocksIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED337825D428BB00D465C2 /* ViewBlocksIntentHandler.swift */; };
+		A7ED337B25D428BB00D465C2 /* ViewBlocksIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED337825D428BB00D465C2 /* ViewBlocksIntentHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +48,36 @@
 			remoteGlobalIDString = A711000C25D1814F00FC7F81;
 			remoteInfo = Muvuca;
 		};
+		A7ED333525D4218D00D465C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A711000525D1814F00FC7F81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7ED332A25D4218D00D465C2;
+			remoteInfo = MuvucaIntentsUI;
+		};
+		A7ED333825D4218D00D465C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A711000525D1814F00FC7F81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7ED331F25D4218D00D465C2;
+			remoteInfo = MuvucaIntents;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7ED334125D4218D00D465C2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A7ED333725D4218D00D465C2 /* MuvucaIntentsUI.appex in Embed App Extensions */,
+				A7ED333A25D4218D00D465C2 /* MuvucaIntents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2446EF23230151C5D9E1893E /* Pods-MuvucaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvucaTests.debug.xcconfig"; path = "Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +101,18 @@
 		A711002F25D1815200FC7F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A73642B825D2B41600E88AE8 /* AddToSiriModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToSiriModalView.swift; sourceTree = "<group>"; };
 		A73642C025D2BA9200E88AE8 /* IntentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentController.swift; sourceTree = "<group>"; };
+		A7ED331825D4215100D465C2 /* Muvuca.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Muvuca.entitlements; sourceTree = "<group>"; };
+		A7ED332025D4218D00D465C2 /* MuvucaIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MuvucaIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7ED332125D4218D00D465C2 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		A7ED332425D4218D00D465C2 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		A7ED332625D4218D00D465C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7ED332B25D4218D00D465C2 /* MuvucaIntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MuvucaIntentsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7ED332C25D4218D00D465C2 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		A7ED332F25D4218D00D465C2 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		A7ED333225D4218D00D465C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A7ED333425D4218D00D465C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7ED334725D4226E00D465C2 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		A7ED337825D428BB00D465C2 /* ViewBlocksIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBlocksIntentHandler.swift; sourceTree = "<group>"; };
 		DF9276E8C981AF0502FD9639 /* Pods-Muvuca-MuvucaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca-MuvucaUITests.release.xcconfig"; path = "Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EAA2FA5A7B37E721B64872C6 /* Pods_Muvuca_MuvucaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvuca_MuvucaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -88,6 +142,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7ED331D25D4218D00D465C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7ED332225D4218D00D465C2 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7ED332825D4218D00D465C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7ED332D25D4218D00D465C2 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -110,6 +180,8 @@
 				7E5410276D8934CCFF0B4FD8 /* Pods_Muvuca.framework */,
 				EAA2FA5A7B37E721B64872C6 /* Pods_Muvuca_MuvucaUITests.framework */,
 				928CE3FC5F9DC9307DF7F84E /* Pods_MuvucaTests.framework */,
+				A7ED332125D4218D00D465C2 /* Intents.framework */,
+				A7ED332C25D4218D00D465C2 /* IntentsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +192,8 @@
 				A711000F25D1814F00FC7F81 /* Muvuca */,
 				A711002125D1815200FC7F81 /* MuvucaTests */,
 				A711002C25D1815200FC7F81 /* MuvucaUITests */,
+				A7ED332325D4218D00D465C2 /* MuvucaIntents */,
+				A7ED332E25D4218D00D465C2 /* MuvucaIntentsUI */,
 				A711000E25D1814F00FC7F81 /* Products */,
 				198457C13224E57F979804DE /* Pods */,
 				376D8835C613EC33500D0630 /* Frameworks */,
@@ -132,6 +206,8 @@
 				A711000D25D1814F00FC7F81 /* Muvuca.app */,
 				A711001E25D1815200FC7F81 /* MuvucaTests.xctest */,
 				A711002925D1815200FC7F81 /* MuvucaUITests.xctest */,
+				A7ED332025D4218D00D465C2 /* MuvucaIntents.appex */,
+				A7ED332B25D4218D00D465C2 /* MuvucaIntentsUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,8 +215,10 @@
 		A711000F25D1814F00FC7F81 /* Muvuca */ = {
 			isa = PBXGroup;
 			children = (
+				A7ED331825D4215100D465C2 /* Muvuca.entitlements */,
 				A711001025D1814F00FC7F81 /* MuvucaApp.swift */,
 				A711001225D1814F00FC7F81 /* ContentView.swift */,
+				A7ED334725D4226E00D465C2 /* Intents.intentdefinition */,
 				A711001425D1815100FC7F81 /* Assets.xcassets */,
 				A711001925D1815100FC7F81 /* Info.plist */,
 				A711001625D1815100FC7F81 /* Preview Content */,
@@ -176,6 +254,26 @@
 			path = MuvucaUITests;
 			sourceTree = "<group>";
 		};
+		A7ED332325D4218D00D465C2 /* MuvucaIntents */ = {
+			isa = PBXGroup;
+			children = (
+				A7ED332425D4218D00D465C2 /* IntentHandler.swift */,
+				A7ED332625D4218D00D465C2 /* Info.plist */,
+				A7ED337825D428BB00D465C2 /* ViewBlocksIntentHandler.swift */,
+			);
+			path = MuvucaIntents;
+			sourceTree = "<group>";
+		};
+		A7ED332E25D4218D00D465C2 /* MuvucaIntentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				A7ED332F25D4218D00D465C2 /* IntentViewController.swift */,
+				A7ED333125D4218D00D465C2 /* MainInterface.storyboard */,
+				A7ED333425D4218D00D465C2 /* Info.plist */,
+			);
+			path = MuvucaIntentsUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,10 +285,13 @@
 				A711000925D1814F00FC7F81 /* Sources */,
 				A711000A25D1814F00FC7F81 /* Frameworks */,
 				A711000B25D1814F00FC7F81 /* Resources */,
+				A7ED334125D4218D00D465C2 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A7ED333625D4218D00D465C2 /* PBXTargetDependency */,
+				A7ED333925D4218D00D465C2 /* PBXTargetDependency */,
 			);
 			name = Muvuca;
 			productName = Muvuca;
@@ -235,6 +336,40 @@
 			productReference = A711002925D1815200FC7F81 /* MuvucaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A7ED331F25D4218D00D465C2 /* MuvucaIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7ED333E25D4218D00D465C2 /* Build configuration list for PBXNativeTarget "MuvucaIntents" */;
+			buildPhases = (
+				A7ED331C25D4218D00D465C2 /* Sources */,
+				A7ED331D25D4218D00D465C2 /* Frameworks */,
+				A7ED331E25D4218D00D465C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuvucaIntents;
+			productName = MuvucaIntents;
+			productReference = A7ED332025D4218D00D465C2 /* MuvucaIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A7ED332A25D4218D00D465C2 /* MuvucaIntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7ED333B25D4218D00D465C2 /* Build configuration list for PBXNativeTarget "MuvucaIntentsUI" */;
+			buildPhases = (
+				A7ED332725D4218D00D465C2 /* Sources */,
+				A7ED332825D4218D00D465C2 /* Frameworks */,
+				A7ED332925D4218D00D465C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuvucaIntentsUI;
+			productName = MuvucaIntentsUI;
+			productReference = A7ED332B25D4218D00D465C2 /* MuvucaIntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -255,6 +390,12 @@
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = A711000C25D1814F00FC7F81;
 					};
+					A7ED331F25D4218D00D465C2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A7ED332A25D4218D00D465C2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 				};
 			};
 			buildConfigurationList = A711000825D1814F00FC7F81 /* Build configuration list for PBXProject "Muvuca" */;
@@ -273,6 +414,8 @@
 				A711000C25D1814F00FC7F81 /* Muvuca */,
 				A711001D25D1815200FC7F81 /* MuvucaTests */,
 				A711002825D1815200FC7F81 /* MuvucaUITests */,
+				A7ED331F25D4218D00D465C2 /* MuvucaIntents */,
+				A7ED332A25D4218D00D465C2 /* MuvucaIntentsUI */,
 			);
 		};
 /* End PBXProject section */
@@ -298,6 +441,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7ED331E25D4218D00D465C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7ED332925D4218D00D465C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7ED333325D4218D00D465C2 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +538,9 @@
 				A711001325D1814F00FC7F81 /* ContentView.swift in Sources */,
 				A73642B925D2B41600E88AE8 /* AddToSiriModalView.swift in Sources */,
 				A711001125D1814F00FC7F81 /* MuvucaApp.swift in Sources */,
+				A7ED334825D4226E00D465C2 /* Intents.intentdefinition in Sources */,
 				A73642C125D2BA9200E88AE8 /* IntentController.swift in Sources */,
+				A7ED337925D428BB00D465C2 /* ViewBlocksIntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +560,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7ED331C25D4218D00D465C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7ED334925D4226E00D465C2 /* Intents.intentdefinition in Sources */,
+				A7ED332525D4218D00D465C2 /* IntentHandler.swift in Sources */,
+				A7ED337A25D428BB00D465C2 /* ViewBlocksIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7ED332725D4218D00D465C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7ED334A25D4226E00D465C2 /* Intents.intentdefinition in Sources */,
+				A7ED333025D4218D00D465C2 /* IntentViewController.swift in Sources */,
+				A7ED337B25D428BB00D465C2 /* ViewBlocksIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -413,7 +593,28 @@
 			target = A711000C25D1814F00FC7F81 /* Muvuca */;
 			targetProxy = A711002A25D1815200FC7F81 /* PBXContainerItemProxy */;
 		};
+		A7ED333625D4218D00D465C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7ED332A25D4218D00D465C2 /* MuvucaIntentsUI */;
+			targetProxy = A7ED333525D4218D00D465C2 /* PBXContainerItemProxy */;
+		};
+		A7ED333925D4218D00D465C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7ED331F25D4218D00D465C2 /* MuvucaIntents */;
+			targetProxy = A7ED333825D4218D00D465C2 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7ED333125D4218D00D465C2 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7ED333225D4218D00D465C2 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A711003025D1815200FC7F81 /* Debug */ = {
@@ -467,6 +668,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INTENTS_CODEGEN_LANGUAGE = Swift;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -522,6 +724,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INTENTS_CODEGEN_LANGUAGE = Swift;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -536,8 +739,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6BB4BCAB92B40A8FB370F2A4 /* Pods-Muvuca.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Muvuca/Muvuca.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Muvuca/Preview Content\"";
 				DEVELOPMENT_TEAM = QS23PKCUZD;
@@ -559,8 +764,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D8E023129EA157CE561EB6F /* Pods-Muvuca.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Muvuca/Muvuca.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Muvuca/Preview Content\"";
 				DEVELOPMENT_TEAM = QS23PKCUZD;
@@ -666,6 +873,82 @@
 			};
 			name = Release;
 		};
+		A7ED333C25D4218D00D465C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS23PKCUZD;
+				INFOPLIST_FILE = MuvucaIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca.MuvucaIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7ED333D25D4218D00D465C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS23PKCUZD;
+				INFOPLIST_FILE = MuvucaIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca.MuvucaIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7ED333F25D4218D00D465C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS23PKCUZD;
+				INFOPLIST_FILE = MuvucaIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca.MuvucaIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7ED334025D4218D00D465C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS23PKCUZD;
+				INFOPLIST_FILE = MuvucaIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca.MuvucaIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -701,6 +984,24 @@
 			buildConfigurations = (
 				A711003925D1815200FC7F81 /* Debug */,
 				A711003A25D1815200FC7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7ED333B25D4218D00D465C2 /* Build configuration list for PBXNativeTarget "MuvucaIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7ED333C25D4218D00D465C2 /* Debug */,
+				A7ED333D25D4218D00D465C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7ED333E25D4218D00D465C2 /* Build configuration list for PBXNativeTarget "MuvucaIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7ED333F25D4218D00D465C2 /* Debug */,
+				A7ED334025D4218D00D465C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
