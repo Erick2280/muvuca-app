@@ -12,12 +12,35 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            CarnivalBlockList()
+            HomeView()
             
             Button(action: {
                 showAddToSiriModal.toggle()
             }) {
-                Text("Que tal usar com a Siri?")
+                HStack {
+                    Image("siriicon")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 60, height: 60)
+                        .padding(5)
+                    
+                    VStack(alignment: .leading) {
+                        Text("Que tal usar com a Siri?")
+                            .font(.title3)
+                            .bold()
+                        Text("Encontre blocos apenas com a voz")
+                            .font(.caption)
+                    }.padding()
+                    
+                    Spacer()
+                }
+                .accentColor(.white)
+                .background(Image("siribg"))
+                .cornerRadius(10)
+                .padding(.trailing, 20)
+                .padding(.leading, 20)
+
+                
             }
             .sheet(isPresented: $showAddToSiriModal) {
                 AddToSiriModalView(showModal: self.$showAddToSiriModal)

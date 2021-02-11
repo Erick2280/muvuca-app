@@ -19,9 +19,15 @@
 		0C311F2525D55546007771F2 /* CarnivalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2425D55546007771F2 /* CarnivalBlockView.swift */; };
 		0C311F2625D55546007771F2 /* CarnivalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2425D55546007771F2 /* CarnivalBlockView.swift */; };
 		0C311F2725D55546007771F2 /* CarnivalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2425D55546007771F2 /* CarnivalBlockView.swift */; };
-		0CD9EB9A25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */; };
-		0CD9EB9B25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */; };
-		0CD9EB9C25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */; };
+		0C311F2C25D558DE007771F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2B25D558DE007771F2 /* ProfileView.swift */; };
+		0C311F2D25D558DE007771F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2B25D558DE007771F2 /* ProfileView.swift */; };
+		0C311F2E25D558DE007771F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2B25D558DE007771F2 /* ProfileView.swift */; };
+		0C311F3925D55BBE007771F2 /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F3825D55BBE007771F2 /* CarnivalBlockList.swift */; };
+		0C311F3A25D55BBE007771F2 /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F3825D55BBE007771F2 /* CarnivalBlockList.swift */; };
+		0C311F3B25D55BBE007771F2 /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F3825D55BBE007771F2 /* CarnivalBlockList.swift */; };
+		0CD9EB9A25D2C25E0055E87E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* HomeView.swift */; };
+		0CD9EB9B25D2C25E0055E87E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* HomeView.swift */; };
+		0CD9EB9C25D2C25E0055E87E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* HomeView.swift */; };
 		0CD9EBA125D2C2C70055E87E /* HomeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EBA025D2C2C70055E87E /* HomeViewTests.swift */; };
 		2A944434C441A8F7A5224C96 /* Pods_Muvuca_MuvucaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA2FA5A7B37E721B64872C6 /* Pods_Muvuca_MuvucaUITests.framework */; };
 		46D8522183D9182BC261B3FD /* Pods_Muvuca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5410276D8934CCFF0B4FD8 /* Pods_Muvuca.framework */; };
@@ -67,7 +73,9 @@
 		0C08785325D4147D00A23B1A /* FirebaseHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHandlerTests.swift; sourceTree = "<group>"; };
 		0C311F1D25D5547E007771F2 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		0C311F2425D55546007771F2 /* CarnivalBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalBlockView.swift; sourceTree = "<group>"; };
-		0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalBlockList.swift; sourceTree = "<group>"; };
+		0C311F2B25D558DE007771F2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0C311F3825D55BBE007771F2 /* CarnivalBlockList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalBlockList.swift; sourceTree = "<group>"; };
+		0CD9EB9925D2C25E0055E87E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0CD9EBA025D2C2C70055E87E /* HomeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTests.swift; sourceTree = "<group>"; };
 		2446EF23230151C5D9E1893E /* Pods-MuvucaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvucaTests.debug.xcconfig"; path = "Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D8E023129EA157CE561EB6F /* Pods-Muvuca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca.release.xcconfig"; path = "Target Support Files/Pods-Muvuca/Pods-Muvuca.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,10 +146,12 @@
 			isa = PBXGroup;
 			children = (
 				A711001225D1814F00FC7F81 /* ContentView.swift */,
-				0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */,
+				0CD9EB9925D2C25E0055E87E /* HomeView.swift */,
 				A73642B825D2B41600E88AE8 /* AddToSiriModalView.swift */,
 				0C311F1D25D5547E007771F2 /* HomeHeaderView.swift */,
 				0C311F2425D55546007771F2 /* CarnivalBlockView.swift */,
+				0C311F2B25D558DE007771F2 /* ProfileView.swift */,
+				0C311F3825D55BBE007771F2 /* CarnivalBlockList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -508,8 +518,10 @@
 				A73642B925D2B41600E88AE8 /* AddToSiriModalView.swift in Sources */,
 				0C08780625D4089100A23B1A /* CarnivalBlock.swift in Sources */,
 				0C311F2525D55546007771F2 /* CarnivalBlockView.swift in Sources */,
-				0CD9EB9A25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
+				0CD9EB9A25D2C25E0055E87E /* HomeView.swift in Sources */,
 				A711001125D1814F00FC7F81 /* MuvucaApp.swift in Sources */,
+				0C311F3925D55BBE007771F2 /* CarnivalBlockList.swift in Sources */,
+				0C311F2C25D558DE007771F2 /* ProfileView.swift in Sources */,
 				A73642C125D2BA9200E88AE8 /* IntentController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,7 +532,9 @@
 			files = (
 				8563CA0225D2D19400BF9BF6 /* CarnivalBlocks.swift in Sources */,
 				855C7DDD25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
-				0CD9EB9B25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
+				0C311F2D25D558DE007771F2 /* ProfileView.swift in Sources */,
+				0CD9EB9B25D2C25E0055E87E /* HomeView.swift in Sources */,
+				0C311F3A25D55BBE007771F2 /* CarnivalBlockList.swift in Sources */,
 				0C08785425D4147D00A23B1A /* FirebaseHandlerTests.swift in Sources */,
 				0C311F2625D55546007771F2 /* CarnivalBlockView.swift in Sources */,
 				0C311F1F25D5547E007771F2 /* HomeHeaderView.swift in Sources */,
@@ -536,11 +550,13 @@
 			files = (
 				8563CA0325D2D19400BF9BF6 /* CarnivalBlocks.swift in Sources */,
 				855C7DDE25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
+				0C311F2E25D558DE007771F2 /* ProfileView.swift in Sources */,
 				0C0877DE25D4072300A23B1A /* AddToSiriModalView.swift in Sources */,
+				0C311F3B25D55BBE007771F2 /* CarnivalBlockList.swift in Sources */,
 				0CD9EBA125D2C2C70055E87E /* HomeViewTests.swift in Sources */,
 				0C311F2725D55546007771F2 /* CarnivalBlockView.swift in Sources */,
 				0C311F2025D5547E007771F2 /* HomeHeaderView.swift in Sources */,
-				0CD9EB9C25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
+				0CD9EB9C25D2C25E0055E87E /* HomeView.swift in Sources */,
 				0C08785C25D415A600A23B1A /* CarnivalBlock.swift in Sources */,
 				A711002E25D1815200FC7F81 /* MuvucaUITests.swift in Sources */,
 			);

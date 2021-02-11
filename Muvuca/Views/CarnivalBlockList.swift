@@ -1,45 +1,42 @@
 //
-//  Home.swift
+//  CarnivalBlockList.swift
 //  Muvuca
 //
-//  Created by Danilo Araújo on 09/02/21.
+//  Created by Danilo Araújo on 11/02/21.
 //
 
 import SwiftUI
 
 struct CarnivalBlockList: View {
     
-    @ObservedObject var carnival: CarnivalBlocks = CarnivalBlocks()
+    @Binding var carnival: [CarnivalBlock]
+    @Binding var images: [UIImage]
     @State var navigatedToBlock = false
     
     var body: some View {
-//        NavigationView {
-            HomeHeaderView()
-            
-            ForEach(0..<carnival.images.count, id: \.self) {index in
-                HStack {
-                    CarnivalBlockView(
-                        block: $carnival.blocks[index],
-                        blockImage: $carnival.images[index]
-                    )
-                    
-//                    NavigationLink(
-//                        destination: SelectPrizeView(
-//                            isActive: $navigatedToBlock,
-//                        ),
-//                        isActive: true,
-//                        label: {
-//                            Image(systemName: "chevron.right")
-//                                .font(.body)
-//                    })
-                }
+        ForEach(0..<images.count, id: \.self) {index in
+            HStack {
+                CarnivalBlockView(
+                    block: $carnival[index],
+                    blockImage: $images[index]
+                )
+                
+                Spacer()
+                
+                NavigationLink(
+                    destination: ProfileView(
+                        block: $carnival[index],
+                        isActive: $navigatedToBlock
+                    ),
+                    isActive: $navigatedToBlock,
+                    label: {
+                        Image(systemName: "chevron.right")
+                            .font(.body)
+                            .foregroundColor(Color("Accent"))
+                    }
+                ).padding(.trailing, 30)
             }
-//        }
+        }
     }
 }
 
-struct Home_Previews: PreviewProvider {
-    static var previews: some View {
-        CarnivalBlockList()
-    }
-}
