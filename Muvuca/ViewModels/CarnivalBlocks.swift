@@ -11,22 +11,23 @@ import SwiftUI
 class CarnivalBlocks: ObservableObject {
     
     @Published var blocks: [CarnivalBlock] = []
-    var images: [UIImage] = []
+    @Published var images: [UIImage] = []
     
     
     init() {
-        FirebaseHandler.readAllCollection(.carnavalBlock, dataType: [CarnivalBlock].self, completion: { result in
+        FirebaseHandler.readAllCollection(.blocks, dataType: [CarnivalBlock].self, completion: { result in
             if case .success(let resultBlocks) = result {
-                print("Teste0")
                 self.blocks.append(contentsOf: resultBlocks.map{ $0 })
+                for block in resultBlocks {
+                    self.getImage(block)
+                }
             }
         })
-        print(self.blocks.count)
     }
     
     private func getImage(_ block: CarnivalBlock){
         
-        let request = URLRequest(url: URL(string: block.imageUrl)!)
+        let request = URLRequest(url: URL(string: block.imageURL)!)
         URLSession.shared.dataTask(with: request) {(data, response, error) in
             DispatchQueue.main.async {
                 guard let data = data else{

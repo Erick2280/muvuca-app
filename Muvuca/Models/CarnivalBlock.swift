@@ -8,11 +8,20 @@
 import Foundation
 
 
-struct CarnivalBlock: Codable, Identifiable {
+class CarnivalBlock: Codable {
+    var date: String
     var hour: String
-    var imageUrl: String
+    var imageURL: String
     var location: String
     var name: String
-    var date: String
-    var id: String
+    
+
+    init(hour: String, imageURL: String, location: String, name: String, date: String) {
+        self.date = date
+        self.hour = hour
+        self.imageURL = imageURL
+        self.location = location
+        self.name = name
+    }
+    
 }

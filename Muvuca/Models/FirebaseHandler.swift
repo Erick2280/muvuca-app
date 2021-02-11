@@ -11,7 +11,7 @@ import FirebaseStorage
 import FirebaseCore
 
 enum Collection: String, Codable {
-    case carnavalBlock
+    case blocks
 
     var folder: String {
         get{
@@ -23,14 +23,12 @@ enum Collection: String, Codable {
 class FirebaseHandler {
 
     static var ref = Database.database().reference()
-
     static var storage = Storage.storage().reference()
 
     init() {}
     
     class func getItemImage(_ collection: Collection, from id: String, completion: @escaping (Result<UIImage, Error>) -> Void){
         let ref = storage.child(collection.folder)
-
         let imageRef = ref.child(id)
 
         imageRef.getData(maxSize: 1 * 2048 * 2048){ data, error in
