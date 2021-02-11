@@ -29,7 +29,7 @@ struct HomeHeaderView: View {
                     
                 }
                 .onTapGesture {
-                    print("Teste")
+                    self.selectedDay = index
                     carnival.getBlocks(by: "\(index)")
                 }
             }.padding(.top, 10)
