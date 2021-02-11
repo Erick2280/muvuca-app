@@ -10,17 +10,16 @@ import SwiftUI
 
 class CarnivalBlocks: ObservableObject {
     
-    @Published var blocks: [CarnivalBlock] = []
+    var blocks: [CarnivalBlock] = []
     @Published var images: [UIImage] = []
-    
+    @Published var todayBlocks: [CarnivalBlock] = []
     
     init() {
         FirebaseHandler.readAllCollection(.blocks, dataType: [CarnivalBlock].self, completion: { result in
             if case .success(let resultBlocks) = result {
                 self.blocks.append(contentsOf: resultBlocks.map{ $0 })
-                for block in resultBlocks {
-                    self.getImage(block)
-                }
+                
+                self.getBlocks(by: self.today())
             }
         })
     }
@@ -43,13 +42,23 @@ class CarnivalBlocks: ObservableObject {
     /// Get carnival blocks by day
     /// - Parameters:
     ///   - day: The day that you want to get blocks from
-    func getBlocks(by day: String) -> [CarnivalBlock] {
-        return []
+    func getBlocks(by day: String) {
+        self.images = []
+        self.todayBlocks = []
+        
+        for block in self.blocks {
+            if block.date == "\(day)/02/2021" {
+                self.todayBlocks.append(block)
+                self.getImage(block)
+            }
+        }
     }
     
-    
-    
-    
-
+    func today() -> String{
+        let date = Date()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd"
+        return dateFormatter.string(from: date)
+    }
 }
 

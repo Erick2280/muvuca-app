@@ -14,12 +14,12 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
-                HomeHeaderView()
-                    
+                HomeHeaderView(carnival: carnival)
+                
                 ScrollView{
                     LazyVStack {
                         CarnivalBlockList(
-                            carnival: $carnival.blocks,
+                            carnival: $carnival.todayBlocks,
                             images: $carnival.images
                         )
                     }
@@ -28,9 +28,3 @@ struct HomeView: View {
         }.navigationBarHidden(true)
     }
 }
-
-//struct Home_Previews: PreviewProvider {
-//    static var previews: some View {
-//        HomeView()
-//    }
-//}

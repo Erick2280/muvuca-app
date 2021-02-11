@@ -10,27 +10,34 @@ import SwiftUI
 struct HomeHeaderView: View {
     
     var days: [String] = ["Sexta", "Sábado", "Domingo", "Segunda", "Terça"]
+    @ObservedObject var carnival: CarnivalBlocks
+    
     var body: some View {
         HStack {
-            ForEach(12..<17, id: \.self) { index in
+            ForEach(11..<16, id: \.self) { index in
                 VStack {
                     Text("\(index)")
                         .font(.title)
                     
-                    Text(days[index - 12])
+                    Text(days[index - 11])
                     
                     Divider()
                         .padding(.bottom, 10)
                     
-                }.padding(.top, 10)
+                }
+                .padding(.top, 10)
+                .onTapGesture {
+                    carnival.getBlocks(by: "\(index)")
+                }
             }
         }
         .background(Color("Primary"))
+        
     }
 }
 
-struct HomeHeaderView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeHeaderView()
-    }
-}
+//struct HomeHeaderView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        HomeHeaderView()
+//    }
+//}

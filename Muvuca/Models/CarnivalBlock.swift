@@ -14,7 +14,6 @@ class CarnivalBlock: Codable{
     var imageURL: String
     var location: String
     var name: String
-    
 
     init(hour: String, imageURL: String, location: String, name: String, date: String) {
         self.date = date
