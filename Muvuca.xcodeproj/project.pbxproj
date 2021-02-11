@@ -912,7 +912,7 @@
 				CODE_SIGN_ENTITLEMENTS = Muvuca/Muvuca.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Muvuca/Preview Content\"";
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Muvuca/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -920,7 +920,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -937,7 +937,7 @@
 				CODE_SIGN_ENTITLEMENTS = Muvuca/Muvuca.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Muvuca/Preview Content\"";
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Muvuca/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -945,7 +945,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1044,14 +1044,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				INFOPLIST_FILE = MuvucaIntentsUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca.MuvucaIntentsUI;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca2.MuvucaIntentsUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1063,14 +1063,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				INFOPLIST_FILE = MuvucaIntentsUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca.MuvucaIntentsUI;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca2.MuvucaIntentsUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1082,14 +1082,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				INFOPLIST_FILE = MuvucaIntents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca.MuvucaIntents;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca2.MuvucaIntents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1101,14 +1101,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				INFOPLIST_FILE = MuvucaIntents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca.MuvucaIntents;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.Muvuca2.MuvucaIntents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;

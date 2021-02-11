@@ -13,10 +13,8 @@ struct AddToSiriModalView: View {
     var body: some View {
         
         ZStack{
-            
             Color("Accent")
                 .edgesIgnoringSafeArea(.all)
-            
             
             GeometryReader { geometry in
                 
