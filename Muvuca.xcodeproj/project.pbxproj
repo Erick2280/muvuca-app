@@ -143,7 +143,6 @@
 		A711002F25D1815200FC7F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A73642B825D2B41600E88AE8 /* AddToSiriModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToSiriModalView.swift; sourceTree = "<group>"; };
 		A73642C025D2BA9200E88AE8 /* IntentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentController.swift; sourceTree = "<group>"; };
-		A7B2C01025D5AFF9002DB15E /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/MainInterface.strings"; sourceTree = "<group>"; };
 		A7ED331825D4215100D465C2 /* Muvuca.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Muvuca.entitlements; sourceTree = "<group>"; };
 		A7ED332025D4218D00D465C2 /* MuvucaIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MuvucaIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7ED332125D4218D00D465C2 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
@@ -481,12 +480,11 @@
 			};
 			buildConfigurationList = A711000825D1814F00FC7F81 /* Build configuration list for PBXProject "Muvuca" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			developmentRegion = "pt-BR";
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
-				Base,
 				"pt-BR",
+				Base,
 			);
 			mainGroup = A711000425D1814F00FC7F81;
 			productRefGroup = A711000E25D1814F00FC7F81 /* Products */;
@@ -774,7 +772,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				A7ED333225D4218D00D465C2 /* Base */,
-				A7B2C01025D5AFF9002DB15E /* pt-BR */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
