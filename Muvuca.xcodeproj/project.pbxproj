@@ -16,6 +16,9 @@
 		0C311F1E25D5547E007771F2 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F1D25D5547E007771F2 /* HomeHeaderView.swift */; };
 		0C311F1F25D5547E007771F2 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F1D25D5547E007771F2 /* HomeHeaderView.swift */; };
 		0C311F2025D5547E007771F2 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F1D25D5547E007771F2 /* HomeHeaderView.swift */; };
+		0C311F2525D55546007771F2 /* CarnivalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2425D55546007771F2 /* CarnivalBlockView.swift */; };
+		0C311F2625D55546007771F2 /* CarnivalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2425D55546007771F2 /* CarnivalBlockView.swift */; };
+		0C311F2725D55546007771F2 /* CarnivalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2425D55546007771F2 /* CarnivalBlockView.swift */; };
 		0CD9EB9A25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */; };
 		0CD9EB9B25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */; };
 		0CD9EB9C25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */; };
@@ -63,6 +66,7 @@
 		0C08780525D4089100A23B1A /* CarnivalBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalBlock.swift; sourceTree = "<group>"; };
 		0C08785325D4147D00A23B1A /* FirebaseHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHandlerTests.swift; sourceTree = "<group>"; };
 		0C311F1D25D5547E007771F2 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		0C311F2425D55546007771F2 /* CarnivalBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalBlockView.swift; sourceTree = "<group>"; };
 		0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalBlockList.swift; sourceTree = "<group>"; };
 		0CD9EBA025D2C2C70055E87E /* HomeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTests.swift; sourceTree = "<group>"; };
 		2446EF23230151C5D9E1893E /* Pods-MuvucaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvucaTests.debug.xcconfig"; path = "Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +141,7 @@
 				0CD9EB9925D2C25E0055E87E /* CarnivalBlockList.swift */,
 				A73642B825D2B41600E88AE8 /* AddToSiriModalView.swift */,
 				0C311F1D25D5547E007771F2 /* HomeHeaderView.swift */,
+				0C311F2425D55546007771F2 /* CarnivalBlockView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -502,6 +507,7 @@
 				0C311F1E25D5547E007771F2 /* HomeHeaderView.swift in Sources */,
 				A73642B925D2B41600E88AE8 /* AddToSiriModalView.swift in Sources */,
 				0C08780625D4089100A23B1A /* CarnivalBlock.swift in Sources */,
+				0C311F2525D55546007771F2 /* CarnivalBlockView.swift in Sources */,
 				0CD9EB9A25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
 				A711001125D1814F00FC7F81 /* MuvucaApp.swift in Sources */,
 				A73642C125D2BA9200E88AE8 /* IntentController.swift in Sources */,
@@ -516,6 +522,7 @@
 				855C7DDD25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
 				0CD9EB9B25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
 				0C08785425D4147D00A23B1A /* FirebaseHandlerTests.swift in Sources */,
+				0C311F2625D55546007771F2 /* CarnivalBlockView.swift in Sources */,
 				0C311F1F25D5547E007771F2 /* HomeHeaderView.swift in Sources */,
 				0C0877DF25D4072300A23B1A /* AddToSiriModalView.swift in Sources */,
 				0C08785825D415A500A23B1A /* CarnivalBlock.swift in Sources */,
@@ -531,6 +538,7 @@
 				855C7DDE25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
 				0C0877DE25D4072300A23B1A /* AddToSiriModalView.swift in Sources */,
 				0CD9EBA125D2C2C70055E87E /* HomeViewTests.swift in Sources */,
+				0C311F2725D55546007771F2 /* CarnivalBlockView.swift in Sources */,
 				0C311F2025D5547E007771F2 /* HomeHeaderView.swift in Sources */,
 				0CD9EB9C25D2C25E0055E87E /* CarnivalBlockList.swift in Sources */,
 				0C08785C25D415A600A23B1A /* CarnivalBlock.swift in Sources */,

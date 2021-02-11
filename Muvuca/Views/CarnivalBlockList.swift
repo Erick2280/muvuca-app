@@ -10,56 +10,31 @@ import SwiftUI
 struct CarnivalBlockList: View {
     
     @ObservedObject var carnival: CarnivalBlocks = CarnivalBlocks()
+    @State var navigatedToBlock = false
     
     var body: some View {
-        
-        HomeHeaderView()
-        
-        ForEach(0..<carnival.images.count, id: \.self) {block  in
-            HStack {
-                Image(uiImage: carnival.images[block])
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .clipShape(Circle())
-                    .frame(width: 64, height: 64)
-                    .padding()
-                
+//        NavigationView {
+            HomeHeaderView()
             
-                VStack(alignment: .leading) {
-                    Text(carnival.blocks[block].name)
-                        .font(.body)
-                        .bold()
-                        .accessibility(identifier: "CarnivalBlockTitle")
+            ForEach(0..<carnival.images.count, id: \.self) {index in
+                HStack {
+                    CarnivalBlockView(
+                        block: $carnival.blocks[index],
+                        blockImage: $carnival.images[index]
+                    )
                     
-                    HStack {
-                        Text(carnival.blocks[block].location)
-                        .accessibility(identifier: "CarnivalBlockLocation")
-                        
-                        Image(systemName: "map")
-                            .foregroundColor(Color("Icons"))
-                    }
-                    
-                    
-                    HStack {
-                        Text(carnival.blocks[block].hour)
-                        .accessibility(identifier: "CarnivalBlockHour")
-                        
-                        Image(systemName: "clock")
-                            .foregroundColor(Color("Icons"))
-                        
-                    }
-                }.foregroundColor(Color("Secondary"))
-                
-                Button(action: {
-                    
-                }) {
-                    Image(systemName: "chevron.right")
-                        .font(.body)
-                }.padding()
+//                    NavigationLink(
+//                        destination: SelectPrizeView(
+//                            isActive: $navigatedToBlock,
+//                        ),
+//                        isActive: true,
+//                        label: {
+//                            Image(systemName: "chevron.right")
+//                                .font(.body)
+//                    })
+                }
             }
-        }
-        
-        
+//        }
     }
 }
 
