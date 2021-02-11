@@ -56,8 +56,11 @@ struct ProfileView: View {
 
 
 
-//struct ProfileView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ProfileView(image: "imagem", bloco: "bloco", endereco: "endereco", horario: "5h00")
-//    }
-//}
+struct ProfileView_Previews: PreviewProvider {
+    
+    @State static var block = CarnivalBlock(hour: "14h00", imageURL: "https://vejasp.abril.com.br/wp-content/uploads/2019/02/sargento-pimenta-abre-o-carnaval-de-sc3a3o-paulo-com-grandes-bonecc3b5es-dos-beatles.jpg", location: "Rua Tomazina", name: "Bloco de Testes", date: "Quinta")
+    
+    static var previews: some View {
+        ProfileView(block: $block)
+    }
+}
