@@ -3,12 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C0877DE25D4072300A23B1A /* AddToSiriModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73642B825D2B41600E88AE8 /* AddToSiriModalView.swift */; };
+		0C0877DF25D4072300A23B1A /* AddToSiriModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73642B825D2B41600E88AE8 /* AddToSiriModalView.swift */; };
+		0C08780625D4089100A23B1A /* CarnivalBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C08780525D4089100A23B1A /* CarnivalBlock.swift */; };
+		0C08785425D4147D00A23B1A /* FirebaseHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C08785325D4147D00A23B1A /* FirebaseHandlerTests.swift */; };
+		0C08785825D415A500A23B1A /* CarnivalBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C08780525D4089100A23B1A /* CarnivalBlock.swift */; };
+		0C08785C25D415A600A23B1A /* CarnivalBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C08780525D4089100A23B1A /* CarnivalBlock.swift */; };
+		0C311F1E25D5547E007771F2 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F1D25D5547E007771F2 /* HomeHeaderView.swift */; };
+		0C311F1F25D5547E007771F2 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F1D25D5547E007771F2 /* HomeHeaderView.swift */; };
+		0C311F2025D5547E007771F2 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F1D25D5547E007771F2 /* HomeHeaderView.swift */; };
+		0C311F2525D55546007771F2 /* CarnivalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2425D55546007771F2 /* CarnivalBlockView.swift */; };
+		0C311F2625D55546007771F2 /* CarnivalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2425D55546007771F2 /* CarnivalBlockView.swift */; };
+		0C311F2725D55546007771F2 /* CarnivalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2425D55546007771F2 /* CarnivalBlockView.swift */; };
+		0C311F2C25D558DE007771F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2B25D558DE007771F2 /* ProfileView.swift */; };
+		0C311F2D25D558DE007771F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2B25D558DE007771F2 /* ProfileView.swift */; };
+		0C311F2E25D558DE007771F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F2B25D558DE007771F2 /* ProfileView.swift */; };
+		0C311F3925D55BBE007771F2 /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F3825D55BBE007771F2 /* CarnivalBlockList.swift */; };
+		0C311F3A25D55BBE007771F2 /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F3825D55BBE007771F2 /* CarnivalBlockList.swift */; };
+		0C311F3B25D55BBE007771F2 /* CarnivalBlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C311F3825D55BBE007771F2 /* CarnivalBlockList.swift */; };
+		0CD9EB9A25D2C25E0055E87E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* HomeView.swift */; };
+		0CD9EB9B25D2C25E0055E87E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* HomeView.swift */; };
+		0CD9EB9C25D2C25E0055E87E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EB9925D2C25E0055E87E /* HomeView.swift */; };
+		0CD9EBA125D2C2C70055E87E /* HomeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EBA025D2C2C70055E87E /* HomeViewTests.swift */; };
 		2A944434C441A8F7A5224C96 /* Pods_Muvuca_MuvucaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA2FA5A7B37E721B64872C6 /* Pods_Muvuca_MuvucaUITests.framework */; };
 		46D8522183D9182BC261B3FD /* Pods_Muvuca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5410276D8934CCFF0B4FD8 /* Pods_Muvuca.framework */; };
+		855C7DDC25D3FF57004E35CB /* FirebaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */; };
+		855C7DDD25D3FF57004E35CB /* FirebaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */; };
+		855C7DDE25D3FF57004E35CB /* FirebaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */; };
+		8563CA0125D2D19400BF9BF6 /* CarnivalBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563CA0025D2D19400BF9BF6 /* CarnivalBlocks.swift */; };
+		8563CA0225D2D19400BF9BF6 /* CarnivalBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563CA0025D2D19400BF9BF6 /* CarnivalBlocks.swift */; };
+		8563CA0325D2D19400BF9BF6 /* CarnivalBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563CA0025D2D19400BF9BF6 /* CarnivalBlocks.swift */; };
+		8578619B25D5905E00D7540E /* UseWithSiriUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8578619A25D5905E00D7540E /* UseWithSiriUIView.swift */; };
+		85BBE4B225D2C43100E98128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */; };
+		85BBE4B325D2C43100E98128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */; };
+		85BBE4B425D2C43100E98128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */; };
 		87C6D91E6BC905E1515E5272 /* Pods_MuvucaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928CE3FC5F9DC9307DF7F84E /* Pods_MuvucaTests.framework */; };
 		A711001125D1814F00FC7F81 /* MuvucaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711001025D1814F00FC7F81 /* MuvucaApp.swift */; };
 		A711001325D1814F00FC7F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711001225D1814F00FC7F81 /* ContentView.swift */; };
@@ -80,11 +112,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C08780525D4089100A23B1A /* CarnivalBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalBlock.swift; sourceTree = "<group>"; };
+		0C08785325D4147D00A23B1A /* FirebaseHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHandlerTests.swift; sourceTree = "<group>"; };
+		0C311F1D25D5547E007771F2 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		0C311F2425D55546007771F2 /* CarnivalBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalBlockView.swift; sourceTree = "<group>"; };
+		0C311F2B25D558DE007771F2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0C311F3825D55BBE007771F2 /* CarnivalBlockList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalBlockList.swift; sourceTree = "<group>"; };
+		0CD9EB9925D2C25E0055E87E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0CD9EBA025D2C2C70055E87E /* HomeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTests.swift; sourceTree = "<group>"; };
 		2446EF23230151C5D9E1893E /* Pods-MuvucaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvucaTests.debug.xcconfig"; path = "Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D8E023129EA157CE561EB6F /* Pods-Muvuca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca.release.xcconfig"; path = "Target Support Files/Pods-Muvuca/Pods-Muvuca.release.xcconfig"; sourceTree = "<group>"; };
 		6BB4BCAB92B40A8FB370F2A4 /* Pods-Muvuca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca.debug.xcconfig"; path = "Target Support Files/Pods-Muvuca/Pods-Muvuca.debug.xcconfig"; sourceTree = "<group>"; };
 		7E5410276D8934CCFF0B4FD8 /* Pods_Muvuca.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvuca.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA73191860A5848387F413E /* Pods-MuvucaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvucaTests.release.xcconfig"; path = "Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests.release.xcconfig"; sourceTree = "<group>"; };
+		855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHandler.swift; sourceTree = "<group>"; };
+		8563CA0025D2D19400BF9BF6 /* CarnivalBlocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalBlocks.swift; sourceTree = "<group>"; };
+		8578619A25D5905E00D7540E /* UseWithSiriUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseWithSiriUIView.swift; sourceTree = "<group>"; };
+		85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		86CC1D57FCFEF53F8ED44594 /* Pods-Muvuca-MuvucaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca-MuvucaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		928CE3FC5F9DC9307DF7F84E /* Pods_MuvucaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuvucaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A711000D25D1814F00FC7F81 /* Muvuca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muvuca.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +205,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C0877D525D4070000A23B1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */,
+				0C08780525D4089100A23B1A /* CarnivalBlock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0C0877D625D4070800A23B1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A711001225D1814F00FC7F81 /* ContentView.swift */,
+				0CD9EB9925D2C25E0055E87E /* HomeView.swift */,
+				A73642B825D2B41600E88AE8 /* AddToSiriModalView.swift */,
+				0C311F1D25D5547E007771F2 /* HomeHeaderView.swift */,
+				0C311F2425D55546007771F2 /* CarnivalBlockView.swift */,
+				0C311F2B25D558DE007771F2 /* ProfileView.swift */,
+				8578619A25D5905E00D7540E /* UseWithSiriUIView.swift */,
+				0C311F3825D55BBE007771F2 /* CarnivalBlockList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C0877DA25D4071100A23B1A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8563CA0025D2D19400BF9BF6 /* CarnivalBlocks.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		198457C13224E57F979804DE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,10 +295,13 @@
 				A711001025D1814F00FC7F81 /* MuvucaApp.swift */,
 				A711001225D1814F00FC7F81 /* ContentView.swift */,
 				A7ED334725D4226E00D465C2 /* Intents.intentdefinition */,
+				0C0877DA25D4071100A23B1A /* ViewModels */,
+				0C0877D625D4070800A23B1A /* Views */,
+				0C0877D525D4070000A23B1A /* Models */,
+				85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */,
 				A711001425D1815100FC7F81 /* Assets.xcassets */,
 				A711001925D1815100FC7F81 /* Info.plist */,
 				A711001625D1815100FC7F81 /* Preview Content */,
-				A73642B825D2B41600E88AE8 /* AddToSiriModalView.swift */,
 				A73642C025D2BA9200E88AE8 /* IntentController.swift */,
 			);
 			path = Muvuca;
@@ -241,6 +320,7 @@
 			children = (
 				A711002225D1815200FC7F81 /* MuvucaTests.swift */,
 				A711002425D1815200FC7F81 /* Info.plist */,
+				0C08785325D4147D00A23B1A /* FirebaseHandlerTests.swift */,
 			);
 			path = MuvucaTests;
 			sourceTree = "<group>";
@@ -250,6 +330,7 @@
 			children = (
 				A711002D25D1815200FC7F81 /* MuvucaUITests.swift */,
 				A711002F25D1815200FC7F81 /* Info.plist */,
+				0CD9EBA025D2C2C70055E87E /* HomeViewTests.swift */,
 			);
 			path = MuvucaUITests;
 			sourceTree = "<group>";
@@ -286,6 +367,7 @@
 				A711000A25D1814F00FC7F81 /* Frameworks */,
 				A711000B25D1814F00FC7F81 /* Resources */,
 				A7ED334125D4218D00D465C2 /* Embed App Extensions */,
+				54EEB9F92961685115EA4CC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,6 +388,7 @@
 				A711001A25D1815200FC7F81 /* Sources */,
 				A711001B25D1815200FC7F81 /* Frameworks */,
 				A711001C25D1815200FC7F81 /* Resources */,
+				D8E194FB33531F5171922555 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,6 +408,7 @@
 				A711002525D1815200FC7F81 /* Sources */,
 				A711002625D1815200FC7F81 /* Frameworks */,
 				A711002725D1815200FC7F81 /* Resources */,
+				66F6EF8EFA7516914843C761 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -427,6 +511,7 @@
 			files = (
 				A711001825D1815100FC7F81 /* Preview Assets.xcassets in Resources */,
 				A711001525D1815100FC7F81 /* Assets.xcassets in Resources */,
+				85BBE4B225D2C43100E98128 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +519,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85BBE4B325D2C43100E98128 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +527,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85BBE4B425D2C43100E98128 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +593,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		54EEB9F92961685115EA4CC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Muvuca/Pods-Muvuca-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Muvuca/Pods-Muvuca-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Muvuca/Pods-Muvuca-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F6EF8EFA7516914843C761 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		91EE2CD70344C72FA35D517E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -528,6 +649,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D8E194FB33531F5171922555 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -535,10 +673,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8563CA0125D2D19400BF9BF6 /* CarnivalBlocks.swift in Sources */,
+				8578619B25D5905E00D7540E /* UseWithSiriUIView.swift in Sources */,
+				855C7DDC25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
 				A711001325D1814F00FC7F81 /* ContentView.swift in Sources */,
+				0C311F1E25D5547E007771F2 /* HomeHeaderView.swift in Sources */,
 				A73642B925D2B41600E88AE8 /* AddToSiriModalView.swift in Sources */,
+				0C08780625D4089100A23B1A /* CarnivalBlock.swift in Sources */,
+				0C311F2525D55546007771F2 /* CarnivalBlockView.swift in Sources */,
+				0CD9EB9A25D2C25E0055E87E /* HomeView.swift in Sources */,
 				A711001125D1814F00FC7F81 /* MuvucaApp.swift in Sources */,
 				A7ED334825D4226E00D465C2 /* Intents.intentdefinition in Sources */,
+				0C311F3925D55BBE007771F2 /* CarnivalBlockList.swift in Sources */,
+				0C311F2C25D558DE007771F2 /* ProfileView.swift in Sources */,
 				A73642C125D2BA9200E88AE8 /* IntentController.swift in Sources */,
 				A7ED337925D428BB00D465C2 /* ViewBlocksIntentHandler.swift in Sources */,
 			);
@@ -548,6 +695,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8563CA0225D2D19400BF9BF6 /* CarnivalBlocks.swift in Sources */,
+				855C7DDD25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
+				0C311F2D25D558DE007771F2 /* ProfileView.swift in Sources */,
+				0CD9EB9B25D2C25E0055E87E /* HomeView.swift in Sources */,
+				0C311F3A25D55BBE007771F2 /* CarnivalBlockList.swift in Sources */,
+				0C08785425D4147D00A23B1A /* FirebaseHandlerTests.swift in Sources */,
+				0C311F2625D55546007771F2 /* CarnivalBlockView.swift in Sources */,
+				0C311F1F25D5547E007771F2 /* HomeHeaderView.swift in Sources */,
+				0C0877DF25D4072300A23B1A /* AddToSiriModalView.swift in Sources */,
+				0C08785825D415A500A23B1A /* CarnivalBlock.swift in Sources */,
 				A711002325D1815200FC7F81 /* MuvucaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -556,6 +713,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8563CA0325D2D19400BF9BF6 /* CarnivalBlocks.swift in Sources */,
+				855C7DDE25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
+				0C311F2E25D558DE007771F2 /* ProfileView.swift in Sources */,
+				0C0877DE25D4072300A23B1A /* AddToSiriModalView.swift in Sources */,
+				0C311F3B25D55BBE007771F2 /* CarnivalBlockList.swift in Sources */,
+				0CD9EBA125D2C2C70055E87E /* HomeViewTests.swift in Sources */,
+				0C311F2725D55546007771F2 /* CarnivalBlockView.swift in Sources */,
+				0C311F2025D5547E007771F2 /* HomeHeaderView.swift in Sources */,
+				0CD9EB9C25D2C25E0055E87E /* HomeView.swift in Sources */,
+				0C08785C25D415A600A23B1A /* CarnivalBlock.swift in Sources */,
 				A711002E25D1815200FC7F81 /* MuvucaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -745,7 +912,7 @@
 				CODE_SIGN_ENTITLEMENTS = Muvuca/Muvuca.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Muvuca/Preview Content\"";
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Muvuca/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -770,7 +937,7 @@
 				CODE_SIGN_ENTITLEMENTS = Muvuca/Muvuca.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Muvuca/Preview Content\"";
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Muvuca/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -792,7 +959,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				INFOPLIST_FILE = MuvucaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -815,7 +982,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				INFOPLIST_FILE = MuvucaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -837,7 +1004,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				INFOPLIST_FILE = MuvucaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -858,7 +1025,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QS23PKCUZD;
+				DEVELOPMENT_TEAM = KBDYNQ5FQB;
 				INFOPLIST_FILE = MuvucaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

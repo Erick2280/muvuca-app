@@ -7,12 +7,14 @@
 
 import SwiftUI
 import Intents
+import Firebase
 
 @main
 struct MuvucaApp: App {
     
     init() {
         donateIntent()
+        setupFirebase()
     }
     
     var body: some Scene {
@@ -38,5 +40,9 @@ private extension MuvucaApp {
             }
         }
     }
-
+    func setupFirebase() {
+        FirebaseConfiguration.shared.setLoggerLevel(.min)
+        FirebaseApp.configure()
+    }
 }
+
