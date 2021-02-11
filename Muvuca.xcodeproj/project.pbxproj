@@ -37,6 +37,7 @@
 		8563CA0125D2D19400BF9BF6 /* CarnivalBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563CA0025D2D19400BF9BF6 /* CarnivalBlocks.swift */; };
 		8563CA0225D2D19400BF9BF6 /* CarnivalBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563CA0025D2D19400BF9BF6 /* CarnivalBlocks.swift */; };
 		8563CA0325D2D19400BF9BF6 /* CarnivalBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563CA0025D2D19400BF9BF6 /* CarnivalBlocks.swift */; };
+		8578619B25D5905E00D7540E /* UseWithSiriUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8578619A25D5905E00D7540E /* UseWithSiriUIView.swift */; };
 		85BBE4B225D2C43100E98128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */; };
 		85BBE4B325D2C43100E98128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */; };
 		85BBE4B425D2C43100E98128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */; };
@@ -84,6 +85,7 @@
 		7EA73191860A5848387F413E /* Pods-MuvucaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvucaTests.release.xcconfig"; path = "Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests.release.xcconfig"; sourceTree = "<group>"; };
 		855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHandler.swift; sourceTree = "<group>"; };
 		8563CA0025D2D19400BF9BF6 /* CarnivalBlocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalBlocks.swift; sourceTree = "<group>"; };
+		8578619A25D5905E00D7540E /* UseWithSiriUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseWithSiriUIView.swift; sourceTree = "<group>"; };
 		85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		86CC1D57FCFEF53F8ED44594 /* Pods-Muvuca-MuvucaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca-MuvucaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		928CE3FC5F9DC9307DF7F84E /* Pods_MuvucaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuvucaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +153,7 @@
 				0C311F1D25D5547E007771F2 /* HomeHeaderView.swift */,
 				0C311F2425D55546007771F2 /* CarnivalBlockView.swift */,
 				0C311F2B25D558DE007771F2 /* ProfileView.swift */,
+				8578619A25D5905E00D7540E /* UseWithSiriUIView.swift */,
 				0C311F3825D55BBE007771F2 /* CarnivalBlockList.swift */,
 			);
 			path = Views;
@@ -512,6 +515,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8563CA0125D2D19400BF9BF6 /* CarnivalBlocks.swift in Sources */,
+				8578619B25D5905E00D7540E /* UseWithSiriUIView.swift in Sources */,
 				855C7DDC25D3FF57004E35CB /* FirebaseHandler.swift in Sources */,
 				A711001325D1814F00FC7F81 /* ContentView.swift in Sources */,
 				0C311F1E25D5547E007771F2 /* HomeHeaderView.swift in Sources */,
