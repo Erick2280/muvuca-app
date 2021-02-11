@@ -11,7 +11,6 @@ import SwiftUI
 struct ProfileView: View {
     
     @Binding var block: CarnivalBlock
-    @Binding var isActive: Bool
         
     var body: some View {
     

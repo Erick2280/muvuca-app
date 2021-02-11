@@ -15,7 +15,7 @@ struct HomeView: View {
         NavigationView {
             VStack {
                 HomeHeaderView()
-                
+                    
                 ScrollView{
                     LazyVStack {
                         CarnivalBlockList(
@@ -25,7 +25,7 @@ struct HomeView: View {
                     }
                 }
             }.frame(alignment: .topLeading)
-        }
+        }.navigationBarHidden(true)
     }
 }
 

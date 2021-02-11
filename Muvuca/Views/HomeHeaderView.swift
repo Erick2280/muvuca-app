@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct HomeHeaderView: View {
+    
+    var days: [String] = ["Sexta", "Sábado", "Domingo", "Segunda", "Terça"]
     var body: some View {
         HStack {
-            ForEach(11..<16, id: \.self) { index in
+            ForEach(12..<17, id: \.self) { index in
                 VStack {
                     Text("\(index)")
                         .font(.title)
                     
-                    Text("Sexta")
+                    Text(days[index - 12])
                     
                     Divider()
                         .padding(.bottom, 10)

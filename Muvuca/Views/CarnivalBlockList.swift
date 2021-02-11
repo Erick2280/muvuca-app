@@ -11,7 +11,7 @@ struct CarnivalBlockList: View {
     
     @Binding var carnival: [CarnivalBlock]
     @Binding var images: [UIImage]
-    @State var navigatedToBlock = false
+    @State var navigatedToBlock: Int? = nil
     
     var body: some View {
         ForEach(0..<images.count, id: \.self) {index in
@@ -24,15 +24,16 @@ struct CarnivalBlockList: View {
                 Spacer()
                 
                 NavigationLink(
-                    destination: ProfileView(
-                        block: $carnival[index],
-                        isActive: $navigatedToBlock
-                    ),
-                    isActive: $navigatedToBlock,
+                    destination: ProfileView(block: $carnival[index]),
+                    tag: index,
+                    selection: $navigatedToBlock,
                     label: {
                         Image(systemName: "chevron.right")
                             .font(.body)
                             .foregroundColor(Color("Accent"))
+                            .onTapGesture {
+                                self.navigatedToBlock = index
+                            }
                     }
                 ).padding(.trailing, 30)
             }
