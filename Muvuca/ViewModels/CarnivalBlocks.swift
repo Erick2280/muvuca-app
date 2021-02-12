@@ -21,7 +21,7 @@ class CarnivalBlocks: ObservableObject {
         FirebaseHandler.readAllCollection(.blocks, dataType: [CarnivalBlock].self, completion: { result in
             if case .success(let resultBlocks) = result {
                 self.blocks.append(contentsOf: resultBlocks.map{ $0 })
-                self.getBlocks(by: self.today())
+                self.getBlocks(by: CarnivalBlocks.today())
             }
         })
     }
@@ -57,7 +57,8 @@ class CarnivalBlocks: ObservableObject {
         }
     }
     
-    func today() -> String{
+    
+    static func today() -> String{
         let date = Date()
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd"

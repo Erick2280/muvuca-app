@@ -11,7 +11,7 @@ struct HomeHeaderView: View {
     
     var days: [String] = ["Sexta", "Sábado", "Domingo", "Segunda", "Terça"]
     @ObservedObject var carnival: CarnivalBlocks
-    @State var selectedDay: Int = 11
+    @State var selectedDay: Int = Int(CarnivalBlocks.today())!
     
     var body: some View {
         HStack {
@@ -19,10 +19,10 @@ struct HomeHeaderView: View {
                 VStack {
                     Text("\(index)")
                         .font(index == selectedDay ? .largeTitle : . title)
-                        .foregroundColor("\(index)" < carnival.today() ? .gray : .white)
+                        .foregroundColor("\(index)" < CarnivalBlocks.today() ? .gray : .white)
                     
                     Text(days[index - 11])
-                        .foregroundColor("\(index)" < carnival.today() ? .gray : .white)
+                        .foregroundColor("\(index)" < CarnivalBlocks.today() ? .gray : .white)
                     
                     Divider()
                         .padding(.bottom, 10)
