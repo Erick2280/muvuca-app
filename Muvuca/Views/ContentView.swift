@@ -16,6 +16,7 @@ struct ContentView: View {
                 .ignoresSafeArea()
                 .frame(height: 20)
                 .foregroundColor(Color("Primary"))
+                .padding(.bottom, -20)
             
             HomeView(carnival: CarnivalBlocks.shared)
             

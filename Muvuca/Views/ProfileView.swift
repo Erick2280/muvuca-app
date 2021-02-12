@@ -40,7 +40,7 @@ struct ProfileView: View {
 
                 Text("\(block.hour)")
                     .font(.footnote)
-            }.padding(.top, 30.0)
+            }.padding(.top, -50.0)
             
             MapViewAdvance(checkpoints: $checkpoints)
                 .edgesIgnoringSafeArea(.all)
