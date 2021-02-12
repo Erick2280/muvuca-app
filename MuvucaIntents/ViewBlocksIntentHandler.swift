@@ -18,7 +18,23 @@ class ViewBlocksIntentHandler : NSObject, ViewBlocksIntentHandling {
     }
     
     func handle(intent: ViewBlocksIntent, completion: @escaping (ViewBlocksIntentResponse) -> Void) {
-        let blockName = intent.blockName!
-        completion(ViewBlocksIntentResponse.success(blockName: blockName))
+        
+        //if let block = getBlock(blockName: intent.blockName!) {
+            completion(ViewBlocksIntentResponse.success(blockName: "Siri na Lata", blockLocation: "Rua da moeda", blockHour: "09h00", blockDate: "12/02/2021"))
+        //} else {
+        //    completion(ViewBlocksIntentResponse(code: .failure, userActivity: nil))
+        //}
+        
+        // let carnival = CarnivalBlocks()
+        // let blockName = intent.blockName!
+        // completion(ViewBlocksIntentResponse.success(blockName: blockName))
+    }
+    
+    func getBlock(blockName: String) -> CarnivalBlock? {
+        if let block =  CarnivalBlocks().blocks.first(where: {$0.name.lowercased() == blockName.lowercased()}) {
+           return block
+        } else {
+           return nil
+        }
     }
 }

@@ -43,6 +43,14 @@
 		85BBE4B325D2C43100E98128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */; };
 		85BBE4B425D2C43100E98128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85BBE4B125D2C43100E98128 /* GoogleService-Info.plist */; };
 		87C6D91E6BC905E1515E5272 /* Pods_MuvucaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928CE3FC5F9DC9307DF7F84E /* Pods_MuvucaTests.framework */; };
+		99FB68A52B1E57E7B560B468 /* Pods_Muvuca_MuvucaIntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA8C41A6EBF8AB65E2E6459 /* Pods_Muvuca_MuvucaIntentsUI.framework */; };
+		A224525E515A2CA56FE2B5B0 /* Pods_Muvuca_MuvucaIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7BEDA4581D9C2CC981445E /* Pods_Muvuca_MuvucaIntents.framework */; };
+		A70E969D25D5C73900E56095 /* CarnivalBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563CA0025D2D19400BF9BF6 /* CarnivalBlocks.swift */; };
+		A70E96A325D5C73A00E56095 /* CarnivalBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563CA0025D2D19400BF9BF6 /* CarnivalBlocks.swift */; };
+		A70E96A925D5C77000E56095 /* FirebaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */; };
+		A70E96AF25D5C77000E56095 /* FirebaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */; };
+		A70E96B525D5C77300E56095 /* CarnivalBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C08780525D4089100A23B1A /* CarnivalBlock.swift */; };
+		A70E96BB25D5C77500E56095 /* CarnivalBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C08780525D4089100A23B1A /* CarnivalBlock.swift */; };
 		A711001125D1814F00FC7F81 /* MuvucaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711001025D1814F00FC7F81 /* MuvucaApp.swift */; };
 		A711001325D1814F00FC7F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711001225D1814F00FC7F81 /* ContentView.swift */; };
 		A711001525D1815100FC7F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A711001425D1815100FC7F81 /* Assets.xcassets */; };
@@ -124,6 +132,9 @@
 		2446EF23230151C5D9E1893E /* Pods-MuvucaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvucaTests.debug.xcconfig"; path = "Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D8E023129EA157CE561EB6F /* Pods-Muvuca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca.release.xcconfig"; path = "Target Support Files/Pods-Muvuca/Pods-Muvuca.release.xcconfig"; sourceTree = "<group>"; };
 		6BB4BCAB92B40A8FB370F2A4 /* Pods-Muvuca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca.debug.xcconfig"; path = "Target Support Files/Pods-Muvuca/Pods-Muvuca.debug.xcconfig"; sourceTree = "<group>"; };
+		6CA8C41A6EBF8AB65E2E6459 /* Pods_Muvuca_MuvucaIntentsUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvuca_MuvucaIntentsUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1C04B10552B51201BCBC42 /* Pods-Muvuca-MuvucaIntentsUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca-MuvucaIntentsUI.release.xcconfig"; path = "Target Support Files/Pods-Muvuca-MuvucaIntentsUI/Pods-Muvuca-MuvucaIntentsUI.release.xcconfig"; sourceTree = "<group>"; };
+		7A7BEDA4581D9C2CC981445E /* Pods_Muvuca_MuvucaIntents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvuca_MuvucaIntents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5410276D8934CCFF0B4FD8 /* Pods_Muvuca.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvuca.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA73191860A5848387F413E /* Pods-MuvucaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvucaTests.release.xcconfig"; path = "Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests.release.xcconfig"; sourceTree = "<group>"; };
 		855C7DDB25D3FF57004E35CB /* FirebaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHandler.swift; sourceTree = "<group>"; };
@@ -147,7 +158,6 @@
 		A711002F25D1815200FC7F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A73642B825D2B41600E88AE8 /* AddToSiriModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToSiriModalView.swift; sourceTree = "<group>"; };
 		A73642C025D2BA9200E88AE8 /* IntentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentController.swift; sourceTree = "<group>"; };
-		A7B2C01025D5AFF9002DB15E /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/MainInterface.strings"; sourceTree = "<group>"; };
 		A7ED331825D4215100D465C2 /* Muvuca.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Muvuca.entitlements; sourceTree = "<group>"; };
 		A7ED332025D4218D00D465C2 /* MuvucaIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MuvucaIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7ED332125D4218D00D465C2 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
@@ -160,8 +170,11 @@
 		A7ED333425D4218D00D465C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7ED334725D4226E00D465C2 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 		A7ED337825D428BB00D465C2 /* ViewBlocksIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBlocksIntentHandler.swift; sourceTree = "<group>"; };
+		AF9998269F703204340954D8 /* Pods-Muvuca-MuvucaIntentsUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca-MuvucaIntentsUI.debug.xcconfig"; path = "Target Support Files/Pods-Muvuca-MuvucaIntentsUI/Pods-Muvuca-MuvucaIntentsUI.debug.xcconfig"; sourceTree = "<group>"; };
+		D6F606FB2D224C88E4CFB7E4 /* Pods-Muvuca-MuvucaIntents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca-MuvucaIntents.release.xcconfig"; path = "Target Support Files/Pods-Muvuca-MuvucaIntents/Pods-Muvuca-MuvucaIntents.release.xcconfig"; sourceTree = "<group>"; };
 		DF9276E8C981AF0502FD9639 /* Pods-Muvuca-MuvucaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca-MuvucaUITests.release.xcconfig"; path = "Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EAA2FA5A7B37E721B64872C6 /* Pods_Muvuca_MuvucaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muvuca_MuvucaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE81F0F57E7A7902B3C73A9F /* Pods-Muvuca-MuvucaIntents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muvuca-MuvucaIntents.debug.xcconfig"; path = "Target Support Files/Pods-Muvuca-MuvucaIntents/Pods-Muvuca-MuvucaIntents.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7ED332225D4218D00D465C2 /* Intents.framework in Frameworks */,
+				A224525E515A2CA56FE2B5B0 /* Pods_Muvuca_MuvucaIntents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7ED332D25D4218D00D465C2 /* IntentsUI.framework in Frameworks */,
+				99FB68A52B1E57E7B560B468 /* Pods_Muvuca_MuvucaIntentsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +264,10 @@
 				DF9276E8C981AF0502FD9639 /* Pods-Muvuca-MuvucaUITests.release.xcconfig */,
 				2446EF23230151C5D9E1893E /* Pods-MuvucaTests.debug.xcconfig */,
 				7EA73191860A5848387F413E /* Pods-MuvucaTests.release.xcconfig */,
+				EE81F0F57E7A7902B3C73A9F /* Pods-Muvuca-MuvucaIntents.debug.xcconfig */,
+				D6F606FB2D224C88E4CFB7E4 /* Pods-Muvuca-MuvucaIntents.release.xcconfig */,
+				AF9998269F703204340954D8 /* Pods-Muvuca-MuvucaIntentsUI.debug.xcconfig */,
+				6F1C04B10552B51201BCBC42 /* Pods-Muvuca-MuvucaIntentsUI.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -261,6 +280,8 @@
 				928CE3FC5F9DC9307DF7F84E /* Pods_MuvucaTests.framework */,
 				A7ED332125D4218D00D465C2 /* Intents.framework */,
 				A7ED332C25D4218D00D465C2 /* IntentsUI.framework */,
+				7A7BEDA4581D9C2CC981445E /* Pods_Muvuca_MuvucaIntents.framework */,
+				6CA8C41A6EBF8AB65E2E6459 /* Pods_Muvuca_MuvucaIntentsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -426,6 +447,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7ED333E25D4218D00D465C2 /* Build configuration list for PBXNativeTarget "MuvucaIntents" */;
 			buildPhases = (
+				79DDA96B3314940811E25102 /* [CP] Check Pods Manifest.lock */,
 				A7ED331C25D4218D00D465C2 /* Sources */,
 				A7ED331D25D4218D00D465C2 /* Frameworks */,
 				A7ED331E25D4218D00D465C2 /* Resources */,
@@ -443,6 +465,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7ED333B25D4218D00D465C2 /* Build configuration list for PBXNativeTarget "MuvucaIntentsUI" */;
 			buildPhases = (
+				DD07C7ED599EE6DCBA200520 /* [CP] Check Pods Manifest.lock */,
 				A7ED332725D4218D00D465C2 /* Sources */,
 				A7ED332825D4218D00D465C2 /* Frameworks */,
 				A7ED332925D4218D00D465C2 /* Resources */,
@@ -486,12 +509,11 @@
 			};
 			buildConfigurationList = A711000825D1814F00FC7F81 /* Build configuration list for PBXProject "Muvuca" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			developmentRegion = "pt-BR";
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
-				Base,
 				"pt-BR",
+				Base,
 			);
 			mainGroup = A711000425D1814F00FC7F81;
 			productRefGroup = A711000E25D1814F00FC7F81 /* Products */;
@@ -630,6 +652,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Muvuca-MuvucaUITests/Pods-Muvuca-MuvucaUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		79DDA96B3314940811E25102 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Muvuca-MuvucaIntents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		91EE2CD70344C72FA35D517E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -667,6 +711,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MuvucaTests/Pods-MuvucaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD07C7ED599EE6DCBA200520 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Muvuca-MuvucaIntentsUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -734,7 +800,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A70E96A925D5C77000E56095 /* FirebaseHandler.swift in Sources */,
+				A70E96B525D5C77300E56095 /* CarnivalBlock.swift in Sources */,
 				A7ED334925D4226E00D465C2 /* Intents.intentdefinition in Sources */,
+				A70E969D25D5C73900E56095 /* CarnivalBlocks.swift in Sources */,
 				A7ED332525D4218D00D465C2 /* IntentHandler.swift in Sources */,
 				A7ED337A25D428BB00D465C2 /* ViewBlocksIntentHandler.swift in Sources */,
 			);
@@ -744,7 +813,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A70E96AF25D5C77000E56095 /* FirebaseHandler.swift in Sources */,
+				A70E96BB25D5C77500E56095 /* CarnivalBlock.swift in Sources */,
 				A7ED334A25D4226E00D465C2 /* Intents.intentdefinition in Sources */,
+				A70E96A325D5C73A00E56095 /* CarnivalBlocks.swift in Sources */,
 				A7ED333025D4218D00D465C2 /* IntentViewController.swift in Sources */,
 				A7ED337B25D428BB00D465C2 /* ViewBlocksIntentHandler.swift in Sources */,
 			);
@@ -780,7 +852,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				A7ED333225D4218D00D465C2 /* Base */,
-				A7B2C01025D5AFF9002DB15E /* pt-BR */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -1048,6 +1119,7 @@
 		};
 		A7ED333C25D4218D00D465C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9998269F703204340954D8 /* Pods-Muvuca-MuvucaIntentsUI.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KBDYNQ5FQB;
@@ -1067,6 +1139,7 @@
 		};
 		A7ED333D25D4218D00D465C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1C04B10552B51201BCBC42 /* Pods-Muvuca-MuvucaIntentsUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KBDYNQ5FQB;
@@ -1086,6 +1159,7 @@
 		};
 		A7ED333F25D4218D00D465C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE81F0F57E7A7902B3C73A9F /* Pods-Muvuca-MuvucaIntents.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KBDYNQ5FQB;
@@ -1105,6 +1179,7 @@
 		};
 		A7ED334025D4218D00D465C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F606FB2D224C88E4CFB7E4 /* Pods-Muvuca-MuvucaIntents.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KBDYNQ5FQB;

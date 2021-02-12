@@ -30,6 +30,16 @@ class IntentViewController: UIViewController, INUIHostedViewControlling {
     
     // Prepare your view controller for the interaction to handle.
     func configureView(for parameters: Set<INParameter>, of interaction: INInteraction, interactiveBehavior: INUIInteractiveBehavior, context: INUIHostedViewContext, completion: @escaping (Bool, Set<INParameter>, CGSize) -> Void) {
+        
+        guard let intent = interaction.intent as? ViewBlocksIntent else {
+             completion(true, parameters, .zero)
+             return
+         }
+        
+        blockNameLabel.text = "Siri na Lata"
+        blockLocationLabel.text = "Rua da moeda"
+        blockTimeLabel.text = "09h00"
+            
         // Do configuration here, including preparing views and calculating a desired size for presentation.
         completion(true, parameters, self.desiredSize)
     }

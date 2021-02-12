@@ -117,11 +117,11 @@
 				<array>
 					<dict>
 						<key>INIntentResponseCodeConciseFormatString</key>
-						<string>O bloco ${blockName} já saiu!</string>
+						<string>O bloco ${blockName} sai em ${blockLocation} às ${blockHour} do dia ${blockDate}.</string>
 						<key>INIntentResponseCodeConciseFormatStringID</key>
 						<string>c8JI9V</string>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>O bloco ${blockName} já saiu!</string>
+						<string>O bloco ${blockName} sai em ${blockLocation} às ${blockHour} do dia ${blockDate}.</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>z0yZrR</string>
 						<key>INIntentResponseCodeName</key>
@@ -130,12 +130,20 @@
 						<true/>
 					</dict>
 					<dict>
+						<key>INIntentResponseCodeConciseFormatString</key>
+						<string>Infelizmente, não encontrei esse bloco.</string>
+						<key>INIntentResponseCodeConciseFormatStringID</key>
+						<string>7WshLi</string>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>Infelizmente, não encontrei esse bloco.</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>mzZwVx</string>
 						<key>INIntentResponseCodeName</key>
 						<string>failure</string>
 					</dict>
 				</array>
 				<key>INIntentResponseLastParameterTag</key>
-				<integer>2</integer>
+				<integer>9</integer>
 				<key>INIntentResponseOutput</key>
 				<string>blockName</string>
 				<key>INIntentResponseParameters</key>
@@ -150,7 +158,63 @@
 						<key>INIntentResponseParameterName</key>
 						<string>blockName</string>
 						<key>INIntentResponseParameterTag</key>
+						<integer>5</integer>
+						<key>INIntentResponseParameterType</key>
+						<string>String</string>
+					</dict>
+					<dict>
+						<key>INIntentResponseParameterDisplayName</key>
+						<string>Hora do Bloco</string>
+						<key>INIntentResponseParameterDisplayNameID</key>
+						<string>aNWdaK</string>
+						<key>INIntentResponseParameterDisplayPriority</key>
 						<integer>2</integer>
+						<key>INIntentResponseParameterName</key>
+						<string>blockHour</string>
+						<key>INIntentResponseParameterTag</key>
+						<integer>6</integer>
+						<key>INIntentResponseParameterType</key>
+						<string>String</string>
+					</dict>
+					<dict>
+						<key>INIntentResponseParameterDisplayName</key>
+						<string>Local do Bloco</string>
+						<key>INIntentResponseParameterDisplayNameID</key>
+						<string>HJNkRU</string>
+						<key>INIntentResponseParameterDisplayPriority</key>
+						<integer>3</integer>
+						<key>INIntentResponseParameterName</key>
+						<string>blockLocation</string>
+						<key>INIntentResponseParameterTag</key>
+						<integer>7</integer>
+						<key>INIntentResponseParameterType</key>
+						<string>String</string>
+					</dict>
+					<dict>
+						<key>INIntentResponseParameterDisplayName</key>
+						<string>Data do Bloco</string>
+						<key>INIntentResponseParameterDisplayNameID</key>
+						<string>VKubP4</string>
+						<key>INIntentResponseParameterDisplayPriority</key>
+						<integer>4</integer>
+						<key>INIntentResponseParameterName</key>
+						<string>blockDate</string>
+						<key>INIntentResponseParameterTag</key>
+						<integer>8</integer>
+						<key>INIntentResponseParameterType</key>
+						<string>String</string>
+					</dict>
+					<dict>
+						<key>INIntentResponseParameterDisplayName</key>
+						<string>URL da Imagem do Bloco</string>
+						<key>INIntentResponseParameterDisplayNameID</key>
+						<string>kHacXT</string>
+						<key>INIntentResponseParameterDisplayPriority</key>
+						<integer>5</integer>
+						<key>INIntentResponseParameterName</key>
+						<string>blockImageUrl</string>
+						<key>INIntentResponseParameterTag</key>
+						<integer>9</integer>
 						<key>INIntentResponseParameterType</key>
 						<string>String</string>
 					</dict>

@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 class CarnivalBlocks: ObservableObject {
     
     static let shared = CarnivalBlocks()
@@ -16,7 +15,7 @@ class CarnivalBlocks: ObservableObject {
     
     @Published var images: [UIImage] = []
     @Published var todayBlocks: [CarnivalBlock] = []
-    
+        
     init() {
         FirebaseHandler.readAllCollection(.blocks, dataType: [CarnivalBlock].self, completion: { result in
             if case .success(let resultBlocks) = result {
