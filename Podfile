@@ -23,6 +23,18 @@ target 'Muvuca' do
     pod 'Firebase/Database'
     pod 'Firebase/Storage'
   end
+  
+  target 'MuvucaIntents' do
+    pod 'Firebase'
+    pod 'Firebase/Database'
+    pod 'Firebase/Storage'
+  end
+  
+  target 'MuvucaIntentsUI' do
+    pod 'Firebase'
+    pod 'Firebase/Database'
+    pod 'Firebase/Storage'
+  end
 
 end
 

@@ -7,13 +7,12 @@
 
 import SwiftUI
 
-
 class CarnivalBlocks: ObservableObject {
     
     var blocks: [CarnivalBlock] = []
     @Published var images: [UIImage] = []
     @Published var todayBlocks: [CarnivalBlock] = []
-    
+        
     init() {
         FirebaseHandler.readAllCollection(.blocks, dataType: [CarnivalBlock].self, completion: { result in
             if case .success(let resultBlocks) = result {
