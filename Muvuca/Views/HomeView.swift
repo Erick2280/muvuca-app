@@ -29,7 +29,7 @@ struct HomeView: View {
                                 Spacer()
                                 
                                 NavigationLink(
-                                    destination: ProfileView(block: $carnival.todayBlocks[index]),
+                                    destination: ProfileView(block: $carnival.todayBlocks[index], blockImage: $carnival.images[index]),
                                     tag: index,
                                     selection: $navigatedToBlock,
                                     label: {

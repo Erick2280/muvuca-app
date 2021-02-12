@@ -11,7 +11,8 @@ import SwiftUI
 struct ProfileView: View {
     
     @Binding var block: CarnivalBlock
-    @State var checkpoints: [Checkpoint] = [Checkpoint(title: "Saída do Siri Na Lata", coordinate: .init(latitude: -8.064647, longitude: -34.872838))]
+    @Binding var blockImage: UIImage
+    @State var checkpoints: [Checkpoint] = [Checkpoint(title: "Saída do Bloco", coordinate: .init(latitude: -8.064647, longitude: -34.872838))]
 
         
     var body: some View {
@@ -22,7 +23,8 @@ struct ProfileView: View {
             
         VStack{
             HStack{
-                Text("\(block.imageURL)")
+                Image(uiImage: blockImage)
+                    .resizable()
                     .frame(width: 80, height: 80)
                     .clipShape(Circle())
                     .overlay(Circle().stroke(Color.white, lineWidth: 3))
@@ -55,11 +57,11 @@ struct ProfileView: View {
 
 
 
-struct ProfileView_Previews: PreviewProvider {
-    
-    @State static var block = CarnivalBlock(hour: "14h00", imageURL: "https://vejasp.abril.com.br/wp-content/uploads/2019/02/sargento-pimenta-abre-o-carnaval-de-sc3a3o-paulo-com-grandes-bonecc3b5es-dos-beatles.jpg", location: "Rua Tomazina", name: "Bloco de Testes", date: "Quinta")
-    
-    static var previews: some View {
-        ProfileView(block: $block)
-    }
-}
+//struct ProfileView_Previews: PreviewProvider {
+//    
+//    @State static var block = CarnivalBlock(hour: "14h00", imageURL: "https://vejasp.abril.com.br/wp-content/uploads/2019/02/sargento-pimenta-abre-o-carnaval-de-sc3a3o-paulo-com-grandes-bonecc3b5es-dos-beatles.jpg", location: "Rua Tomazina", name: "Bloco de Testes", date: "Quinta")
+//    
+////    static var previews: some View {
+////        ProfileView(block: $block)
+////    }
+////}
