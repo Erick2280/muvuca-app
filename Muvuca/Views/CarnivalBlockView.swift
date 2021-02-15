@@ -9,11 +9,10 @@ import SwiftUI
 
 struct CarnivalBlockView: View {
     
-    @Binding var block: CarnivalBlock
-    @Binding var blockImage: UIImage
-    
+    var block: CarnivalBlock
+
     var body: some View {
-        Image(uiImage: blockImage)
+        Image(uiImage: block.image)
             .resizable()
             .aspectRatio(contentMode: .fill)
             .clipShape(Circle())

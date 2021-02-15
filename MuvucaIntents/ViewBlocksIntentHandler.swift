@@ -31,7 +31,7 @@ class ViewBlocksIntentHandler : NSObject, ViewBlocksIntentHandling {
     }
     
     func getBlock(blockName: String) -> CarnivalBlock? {
-        if let block =  CarnivalBlocks().blocks.first(where: {$0.name.lowercased() == blockName.lowercased()}) {
+        if let block =  CarnivalBlocks().todayBlocks.first(where: {$0.name.lowercased() == blockName.lowercased()}) {
            return block
         } else {
            return nil

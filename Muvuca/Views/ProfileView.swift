@@ -10,8 +10,7 @@ import SwiftUI
 
 struct ProfileView: View {
     
-    @Binding var block: CarnivalBlock
-    @Binding var blockImage: UIImage
+    @State var block: CarnivalBlock
     @State var checkpoints: [Checkpoint] = [Checkpoint(title: "Saída do Bloco", coordinate: .init(latitude: -8.064647, longitude: -34.872838))]
 
         
@@ -23,7 +22,7 @@ struct ProfileView: View {
             
         VStack{
             HStack{
-                Image(uiImage: blockImage)
+                Image(uiImage: block.image)
                     .resizable()
                     .frame(width: 80, height: 80)
                     .clipShape(Circle())

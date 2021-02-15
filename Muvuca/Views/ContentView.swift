@@ -8,7 +8,7 @@ import Firebase
 import SwiftUI
 
 struct ContentView: View {
-    @State var showAddToSiriModal = false
+    @State private var showAddToSiriModal = false
     
     var body: some View {
         VStack {

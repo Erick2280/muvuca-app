@@ -19,25 +19,22 @@ struct HomeView: View {
                 
                 ScrollView{
                     VStack {
-                        ForEach(0..<carnival.images.count, id: \.self) {index in
+                        ForEach(carnival.todayBlocks) {block in
                             HStack {
-                                CarnivalBlockView(
-                                    block: $carnival.todayBlocks[index],
-                                    blockImage: $carnival.images[index]
-                                )
+                                CarnivalBlockView(block: block)
                                 
                                 Spacer()
                                 
                                 NavigationLink(
-                                    destination: ProfileView(block: $carnival.todayBlocks[index], blockImage: $carnival.images[index]),
-                                    tag: index,
+                                    destination: ProfileView(block: block),
+                                    tag: block.id,
                                     selection: $navigatedToBlock,
                                     label: {
                                         Image(systemName: "chevron.right")
                                             .font(.body)
                                             .foregroundColor(Color("Accent"))
                                             .onTapGesture {
-                                                self.navigatedToBlock = index
+                                                self.navigatedToBlock = block.id
                                             }
                                     }
                                 ).padding(.trailing, 30)
